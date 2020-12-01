@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Evenements sociaux{% endblock %}
+
+{% block content %}
+
+<div class="slider-area2">
+    <div class="slider-height2 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap hero-cap2 pt-20 text-center">
+                        <h2>Evenements sociaux</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hero End -->
+  <!-- Our Cases Start -->
+    <div class="our-cases-area section-padding30">
+        <div class="container">
+            <div class="row">
+                {% for event in event_list %}
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases mb-40">
+                            <div class="cases-img">
+                                <img src="{{event.img_evenement.url}}" alt="{{ event.titre_evenement }}">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="{% url 'event:event_detail' event.slug %}">{{ event.titre_evenement }}</a></h3>
+                                <!-- / progress -->
+                                <div class="prices d-flex justify-content-between">
+                                    <p><i class="far fa-clock"></i>:<span> {{ event.created|timesince }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="pagination d-flex justify-content-center py-4">
+                <span class="step-links">
+                    {% if formation_list.has_previous %}          
+                        <a href="?page={{ formation_list.previous_page_number }}">Page précédente</a>
+                    {% endif %}
+
+                    <span class="current">
+                    {{ formation_list.number }}
+                    </span>
+
+                    {% if formation_list.has_next %}
+                        <a href="?page={{ formation_list.next_page_number }}">Page suivante</a>
+                    {% endif %}
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Our Cases End -->
+
+
+{% endblock content %}

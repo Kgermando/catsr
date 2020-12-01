@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Erreur du serveur 404{% endblock title %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/error.css' %}">
+{% endblock css %}
+
+{% block content %}
+
+<div class="error">
+    <div class="mainbox">
+        <div class="err">4</div>
+        <i class="far fa-question-circle fa-spin"></i>
+        <div class="err2">0</div>
+        <div class="msg">
+            le serveur ne peut pas ou ne traitera pas la demande 
+            en raison de quelque chose qui est perçu comme une erreur du client.
+            <p>Repartez de zéro <a href="{% url 'app:home' %}">Acceuil</a>.</p>
+        </div>
+    </div> 
+</div>
+
+{% endblock content %}

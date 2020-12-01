@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Bulletins{% endblock %}
+
+{% block content %}
+
+    <!--? Hero Start -->
+    <div class="slider-area2">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 pt-20 text-center">
+                            <h2>Nos Bulletins</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+    <!-- Our Cases Start -->
+    <div class="our-cases-area section-padding30">
+        <div class="container">
+            <div class="row">
+                {% for bulletin in bulletin_list %}
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases mb-40">
+                            <div class="cases-img">
+                                <img src="{{bulletin.img_bulletin.url}}" alt="{{ bulletin.titre_bulletin }}">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="{% url 'bulletin:bulletin_detail' bulletin.slug %}">{{ bulletin.titre_bulletin }}</a></h3>
+                                <!-- Progress Bar -->
+                                <div class="single-skill mb-15">
+                                
+                                </div>
+                                <!-- / progress -->
+                                <div class="prices d-flex justify-content-between">
+                                    <p>Bulletin N°:<span> {{ bulletin.numero_bulletin }}</span></p>
+                                    <p><i class="far fa-clock"></i>:<span> {{ bulletin.created|timesince }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="pagination d-flex justify-content-center py-4">
+                <span class="step-links">
+                    {% if bulletin_list.has_previous %}          
+                        <a href="?page={{ bulletin_list.previous_page_number }}">Page précédente</a>
+                    {% endif %}
+
+                    <span class="current">
+                    {{ bulletin_list.number }}
+                    </span>
+
+                    {% if bulletin_list.has_next %}
+                        <a href="?page={{ bulletin_list.next_page_number }}">Page suivante</a>
+                    {% endif %}
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Our Cases End -->
+
+{% endblock content %}

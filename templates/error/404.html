@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Erreur 404{% endblock title %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/error.css' %}">
+{% endblock css %}
+
+{% block content %}
+
+<div class="error">
+    <div class="mainbox">
+        <div class="err">4</div>
+        <i class="far fa-question-circle fa-spin"></i>
+        <div class="err2">4</div>
+        <div class="msg">
+            Peut-être que cette page a été déplacée? Vous avez été supprimé? Est
+            se cacher en quarantaine? N'a jamais existé en premier lieu?
+            <p>Repartez de zéro <a href="{% url 'app:home' %}">Acceuil</a>.</p>
+        </div>
+    </div> 
+</div>
+
+
+{% endblock content %}

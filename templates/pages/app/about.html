@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}A Propos de Nous{% endblock title %}
+
+{% block content %} 
+
+
+    <!--? Hero Start -->
+    <div class="slider-area2">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 pt-20 text-center">
+                            <h2>Apropos de Nous</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!--? About Law Start-->
+    <section class="about-low-area section-padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-10">
+                    <div class="about-caption">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle mb-35">
+                            <span>CATSR</span>
+                            <h2>De quoi s'agit-il?</h2>
+                        </div>
+                        <p>
+                            Une plateforme d'ONGS congolaise et des travailleurs sociaux 
+                            de rue oeuvrant pour la valorisation du travail social de rue et la prise en charge 
+                            des personnes en situation difficile et particulièrement les enfants 
+                            en situation de rue par la vulgarisation de la loi portant protection de l'enfant 
+                            (n°09/001 du 10 janvier 2009).
+                        </p>
+                        <p>
+                            Créée en 2008 à kinshasa grâce à l'appui de <strong>Dynamo International</strong>, Réseau International de travailleurs sociaux de la rue,
+                            le <strong>CATSR</strong> exerce ses activités à travers tout le territoire national et oeuvre dans le domaine de la protection sociale,
+                            la lutte contre l'exlusion sociale et la promotion des droits humains et ceux de l'enfant et jeune en situation de rue de particulier.
+                        </p>
+                    </div>
+                    <a href="{% url 'app:historique' %}" class="btn">Voir l'historique</a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <!-- about-img -->
+                    <div class="about-img ">
+                        <div class="about-font-img d-none d-lg-block">
+                        <img src="{% static 'img/catsr/img1.png' %}" width="500px" alt="A propos de CATSR">
+                        </div>
+                        <!-- <div class="about-back-img ">
+                            <img src="assets/img/gallery/about1.png" alt="">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Law End-->
+    <!-- Want To work -->
+    <section class="wantToWork-area ">
+        <div class="container">
+            <div class="wants-wrapper w-padding2  section-bg" data-background="{% static 'img/gallery/section_bg01.png' %}">
+                <div class="row align-items-center justify-content-between">
+                    <div class="">
+                        <div class="wantToWork-caption wantToWork-caption2">
+                            <h2>Centre d'acceuil d'Urgence <strong>LIKEMO</strong> Inauguré le 20-11-2017</h2>
+                            <p>Un cadre de socialisation des enfants en situation de rue.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-2 col-lg-3 col-md-4">
+                        <a href="#" class="btn white-btn f-right sm-left">Devenez bénévole</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Want To work End -->
+    <!--? Testimonial Start -->
+    <div class="testimonial-area testimonial-padding">
+        <div class="container">
+            <!-- Testimonial contents -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-xl-8 col-lg-8 col-md-10">
+                    <div class="h1-testimonial-active dot-style">
+                        <!-- Single Testimonial -->
+                        {% for team in team_list %}
+                            <div class="single-testimonial text-center">
+                                <div class="testimonial-caption ">
+                                    <!-- founder -->
+                                    <div class="testimonial-founder">
+                                        <div class="founder-img mb-40">
+                                            <img src="{{team.img_profile.url}}" alt="{{ team.prenom_nom }}">
+                                            <span>{{ team.prenom_nom }}</span>
+                                            <p>{{ team.grade }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+{% endblock content %}

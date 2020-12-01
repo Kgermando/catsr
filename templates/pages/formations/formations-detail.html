@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load social_share %}
+{% block title %}{{ formation.titre_formation }} {% endblock %}
+
+{% block content %}
+
+    <!--? Hero Start -->
+
+     <!-- Hero End -->
+     <!--? Blog Area Start -->
+     <section class="blog_area single-post-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 posts-list">
+                    <div class="single-post">
+                        <div class="feature-img">
+                            <img class="img-fluid" src="{{formation.img_formation.url}}" width="800px" height="500px" alt="{{ formation.titre_formation }}">
+                        </div>
+                        <div class="blog_details">
+                            <h2 style="color: #2d2d2d;">
+                                {{ formation.titre_formation }}
+                            </h2>
+                            <p class="excert">
+                                {{ formation.content_formation }}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="navigation-top">
+                        <div class="d-sm-flex justify-content-between text-center">
+                            <p class="like-info"><span class="align-middle"><i class="fa fa-edit"></i></span> 
+                                {{ formation.editeur }}
+                            </p>
+                            <ul class="social-icons">
+                                <li><a href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                    {% post_to_facebook formation.get_absolute "Facebook" %}
+                                    </a>
+                                </li>
+                                <li><a href="#"><i class="fab fa-twitter"></i> 
+                                    {% post_to_twitter "{{formation.slug}}." formation.get_absolute_url "Twitter" %}
+                                </a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp"></i>
+                                    {% post_to_whatsapp formation.get_absolute_url "WhatsApp" %}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog_right_sidebar">
+                        <aside class="single_sidebar_widget popular_post_widget">
+                            <h3 class="widget_title" style="color: #2d2d2d;">Voir aussi...</h3>
+                            {% for formation in formation_list %}
+                                <div class="media post_item">
+                                    <img src="{{formation.img_formation.url}}" width="80px" height="80px" alt="{{ formation.titre_formation }}">
+                                    <div class="media-body">
+                                        <a href="{% url 'formations:formations_detail' formation.slug %}">
+                                            <h3 style="color: #2d2d2d;">{{ formation.titre_formation|truncatechars:22 }}</h3>
+                                        </a>
+                                        <p>{{ formation.created|timesince }}</p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Blog Area End -->
+
+{% endblock content %}

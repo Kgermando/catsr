@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Acceuil{% endblock title %}
+
+
+{% block content %}
+
+    <!-- slider Area Start-->
+    <div class="slider-area">
+        <div class="slider-active">
+            <!-- Single Slider -->
+            <div class="single-slider slider-height d-flex align-items-center ">
+                <div class="container">
+                    <div class="row">
+                        {% for home in home_list %}
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                                <div class="hero__caption">
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">{{ home.home_title }}</h1>
+                                    <P data-animation="fadeInUp" data-delay=".8s" >{{ home.home_description }}</P>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn">
+                                        <a href="{% url 'app:contact' %}" class="btn hero-btn mb-10"  data-animation="fadeInLeft" data-delay=".8s">Contactez-Nous!</a>
+                                        <a  href="tel:+243 81 503 47 01" class="cal-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">
+                                            <i class="fa fa-phone"></i>
+                                            <p>+243 81 503 47 01</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                                <div class="home-none">
+                                   <img src="{{home.home_image.url}}" alt="{{ home.home_title }}" class="home-img"> 
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider Area End-->
+    <!--? Services Area Start -->
+    <div class="service-area section-padding30">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center">
+                        <!-- <h2>Présentation du CATSR</h2> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-cat text-center mb-20">
+                        <div class="cat-icon">
+                             <span class="">
+                                <i class="fa fa-gavel" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="{% url 'app:about' %}">Principes et Valeurs</a></h5>
+                            <p>
+                                La participation citoyennes , le respect, la responsabilité, 
+                                la justice sociale, la scolarité, l'altérité et la diversité.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-cat text-center mb-20">
+                        <div class="cat-icon">
+                            <span class="">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="{% url 'app:about' %}">Vision</a></h5>
+                            <p>
+                                Garantir les droits pour toutes ces personnes vulnérables et pour qu'elles 
+                                puissent vivre dans une société qui, non seulement les protège, mais qui soutient
+                                activement leur développement sans discrimination. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-cat text-center mb-20">
+                         <div class="cat-icon">
+                            <span class="">
+                                <i class="fa fa-book" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="{% url 'app:about' %}">Mission</a></h5>
+                            <p>
+                                Le CATSR contribue à la promotion, à la défense et au respect des droits de l'enfant et 
+                                du jeune en situation difficile ou de rue d'une part, et promeut et valorise le travail 
+                                sociall de rue en RDC, d'autre part.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Area End -->
+    <!--? About Law Start-->
+    <section class="about-low-area section-padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-10">
+                    <div class="about-caption ">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle">
+                            <span>CATSR</span>
+                            <h2>De quoi s'agit-il?</h2>
+                        </div>
+                        <p>
+                            Une plateforme d'ONGS congolaise et des travailleurs sociaux 
+                            de rue oeuvrant pour la valorisation du travail social de rue et la prise en charge 
+                            des personnes en situation difficile et particulièrement les enfants 
+                            en situation de rue par la vulgarisation de la loi portant protection de l'enfant 
+                            (n°09/001 du 10 janvier 2009).
+                        </p>
+                    </div>
+                    <a href="{% url 'app:about' %}" class="btn">En savoir plus</a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <!-- about-img -->
+                    <div class="about-img ">
+                        <div class="about-font-img d-none d-lg-block">
+                            <img src="{% static 'img/catsr/img1.png' %}" width="500px" alt="A propos de CATSR">
+                        </div>
+                        {% comment %} <div class="about-back-img ">
+                            <img src="{% static 'img/catsr/img2.png' %}" width="400px" alt="CATSR">
+                        </div> {% endcomment %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Law End-->
+    <!-- Our Cases Start -->
+    <div class="our-cases-area section-padding30">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center mb-80">
+                        <h2>Bulletins</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {% for bulletin in bulletin_list %}
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases">
+                            <div class="cases-img">
+                                <img src="{{bulletin.img_bulletin.url}}" alt="{{ bulletin.titre_bulletin }}">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="{% url 'bulletin:bulletin_detail' bulletin.slug %}">{{ bulletin.titre_bulletin }}</a></h3>
+                                <!-- Progress Bar -->
+                                <div class="single-skill mb-15">
+                                
+                                </div>
+                                <!-- / progress -->
+                                <div class="prices d-flex justify-content-between">
+                                    <p>Bulletin d'information N°:<span> {{ bulletin.numero_bulletin }}</span></p>
+                                    <p><i class="far fa-clock"></i>:<span> {{ bulletin.created|timesince }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- Our Cases End -->
+
+
+
+{% endblock %}

@@ -1,0 +1,104 @@
+{% load static %}
+
+<div class="footer-wrapper section-bg2" data-background="{% static 'img/gallery/footer_bg.png' %}">
+    <!-- Footer Top-->
+    <div class="footer-area footer-padding">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="single-footer-caption mb-50">
+                    <div class="single-footer-caption mb-30">
+                        <div class="footer-tittle">
+                            <div class="footer-logo mb-20">
+                                <a href="{% url 'app:home' %} "><img src="{% static 'img/logo/logo2_footer.png' %}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                    <div class="single-footer-caption mb-50">
+                        <div class="footer-tittle">
+                            <h4>Contact Info</h4>
+                            <ul>
+                                <li>
+                                    <p>Siège national : 38, Avenue Mbanza Boma, Q/ Adoula C/ bandalungwa, Ville de Kinshasa, RDC.</p>
+                                </li>
+                                <li><a href="#">Phone : +243 81 503 47 01</a></li>
+                                <li><a href="#">Email : contact@catsr.org</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                    <div class="single-footer-caption mb-50">
+                        <div class="footer-tittle">
+                            <h4>Lien Important</h4>
+                            <ul>
+                                <li><a href="{% url 'app:contact' %} ">Contactez-Nous!</a></li>
+                                <li><a href="{% url 'bulletin:bulletin' %}">Bulletins</a></li>
+                                <li><a href="{% url 'formations:formations' %}">Formations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                    <div class="single-footer-caption mb-50">
+                        <div class="footer-tittle">
+                            <h4>Newsletter</h4>
+                            <div class="footer-pera footer-pera2">
+                            <p>Soyez le premier à être informé en souscrivant à notre newsletter!</p>
+                        </div>
+                        <!-- Form -->
+                        <div class="footer-form" >
+                            <div id="mc_embed_signup">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                    method="get" class="subscribe_form relative mail_part">
+                                    <input type="email" name="email" id="newsletter-form-email" placeholder="Adresse mail"
+                                    class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = ' Adresse mail '">
+                                    <div class="form-icon">
+                                        <button type="submit" name="submit" id="newsletter-submit"
+                                            class="email_icon newsletter-submit button-contactForm">
+                                            <img src="{% static 'img/gallery/form.png' %}" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-bottom -->
+    <div class="footer-bottom-area">
+        <div class="container">
+            <div class="footer-border">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-xl-9 col-lg-8">
+                        <div class="footer-copy-right">
+                            <p>
+                                Copyright &copy; <script>document.write(new Date().getFullYear());</script> 
+                                All rights reserved
+                                <i class="fa fa-heart" aria-hidden="true"></i> by 
+                                <a href="https://eventdrc.com" target="_blank">Eventdrc Technology</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="footer-social f-right">
+                            <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                            <a href="https://www.linkedin.com/in/asbl-catsr-ba6a191ba"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/asbl.catsr.58"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/catsrrdc/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UChfw2u1YG2uiAYOs001rDwQ" target="blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

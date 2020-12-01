@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Erreur 500{% endblock title %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/error.css' %}">
+{% endblock css %}
+
+{% block content %}
+
+<div class="error">
+    <div class="mainbox">
+        <div class="err">5</div>
+        <i class="far fa-question-circle fa-spin"></i>
+        <div class="err2">0</div>
+        <div class="msg">
+            Oups!! Server indique qu'il a rencontré un 
+            problème inattendu qui l'empêche de répondre à votre requête.
+            <p>Repartez de zéro <a href="{% url 'app:home' %}">Acceuil</a>.</p>
+        </div>
+    </div> 
+</div>
+
+
+
+{% endblock content %}

@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Formations{% endblock %}
+
+{% block content %}
+
+    <!--? Hero Start -->
+    <div class="slider-area2">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 pt-20 text-center">
+                            <h2>Nos Formations</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+    <!-- Our Cases Start -->
+    <div class="our-cases-area section-padding30">
+        <div class="container">
+            <div class="row">
+                {% for formation in formation_list %}
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases mb-40">
+                            <div class="cases-img">
+                                <img src="{{formation.img_formation.url}}" alt="{{ formation.titre_formation }}">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation }}</a></h3>
+                                <!-- / progress -->
+                                <div class="prices d-flex justify-content-between">
+                                    <p><i class="far fa-clock"></i>:<span> {{ formation.created|timesince }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="pagination d-flex justify-content-center py-4">
+                <span class="step-links">
+                    {% if formation_list.has_previous %}          
+                        <a href="?page={{ formation_list.previous_page_number }}">Page précédente</a>
+                    {% endif %}
+
+                    <span class="current">
+                    {{ formation_list.number }}
+                    </span>
+
+                    {% if formation_list.has_next %}
+                        <a href="?page={{ formation_list.next_page_number }}">Page suivante</a>
+                    {% endif %}
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Our Cases End -->
+
+{% endblock content %}

@@ -1,0 +1,14 @@
+### HOST ###
+catsr-2
+
+### USER & PASSWORD ###
+user: root 
+password console: 0813530838@Gk
+
+myprojectuser:  catsr
+
+
+#### GIT #####
+git remote add origin https://github.com/Kgermando/catsr.git
+git branch -M main
+git push -u origin main

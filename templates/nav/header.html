@@ -1,0 +1,111 @@
+{% load static %}
+
+<div class="header-area">
+    <div class="main-header ">
+        <div class="header-top d-none d-lg-block">
+            <div class="container-fluid">
+                <div class="col-xl-12">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="header-info-left d-flex">
+                            <ul>
+                                <li>Phone: +243 81 503 47 01</li>
+                                <li>Email: contact@catsr.org</li>
+                            </ul>
+                            <div class="header-social">
+                                <ul>
+                                    <!-- <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li> -->
+                                    <li>
+                                        <a href="https://www.facebook.com/asbl.catsr.58" target="blank">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/asbl-catsr-ba6a191ba" target="blank">
+                                            <i class="fa fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/catsrrdc/" target="blank">
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UChfw2u1YG2uiAYOs001rDwQ" target="blank">
+                                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header-info-right d-flex align-items-center">
+                            <div class="select-this">
+                                <form action="#">
+                                    <div class="select-itms">
+                                        <select name="select" id="select1">
+                                            <option value="">Français</option>
+                                            <option value="">English</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <ul class="contact-now">
+                                <li><a href="{% url 'app:contact' %}">Souscris maintenant</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom  header-sticky">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <!-- Logo -->
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="logo">
+                            <a href="{% url 'app:home' %}"><img src="{% static 'img/logo/logo.png' %}" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10">
+                        <div class="menu-wrapper  d-flex align-items-center justify-content-end">
+                            <!-- Main-menu -->
+                            <div class="main-menu d-none d-lg-block">
+                                {% with request.resolver_match.url_name as url_name %}
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li class="{% if url_name == 'home' %}active{% endif %}">
+                                                <a class="{% if url_name == 'home' %}active{% endif %}" href="{% url 'app:home' %}">Acceuil</a>
+                                            </li>
+                                            <li class="{% if url_name == 'about' %}active{% endif %}">
+                                                <a class="{% if url_name == 'about' %}active{% endif %}" href="{% url 'app:about' %}">A Propos de Nous</a>
+                                            </li>
+                                            <li class="{% if url_name == 'bulletin' %}active{% endif %}">
+                                                <a class="{% if url_name == 'bulletin' %}active{% endif %}" href="{% url 'bulletin:bulletin' %}">Bulletins</a>
+                                            </li>
+                                            <li class="{% if url_name == 'formations' %}active{% endif %}">
+                                                <a class="{% if url_name == 'formations' %}active{% endif %}" href="{% url 'formations:formations' %}">Formations</a>
+                                            </li>
+                                            <li class="{% if url_name == 'event' %}active{% endif %}">
+                                                <a href="{% url 'event:event' %}">Evénement</a>
+                                            </li>
+                                            <li class="d-lg-none {% if url_name == 'contact' %}active{% endif %}">
+                                                <a class="d-lg-none {% if url_name == 'contact' %}active{% endif %}" href="{% url 'app:contact' %}">Contactez-Nous</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                {% endwith %}
+                            </div>
+                            <!-- Header-btn -->
+                            <div class="header-right-btn d-none d-lg-block ml-20">
+                                <a href="{% url 'app:contact' %}" class="btn header-btn">Contactez-Nous</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

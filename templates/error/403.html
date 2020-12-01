@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Accès à la ressource demandée est interdit{% endblock title %}
+
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/error.css' %}">
+{% endblock css %}
+
+{% block content %}
+
+<div class="error">
+    <div class="mainbox">
+        <div class="err">4</div>
+        <i class="far fa-question-circle fa-spin"></i>
+        <div class="err2">3</div>
+        <div class="msg">
+            Oups!! Le serveur a compris la demande, mais ne la satisfera pas en raison 
+                de problèmes liés au client. <br>
+            les ressources demandée sont interdite pour une raison quelconque.
+            <p>Repartez de zéro <a href="{% url 'app:home' %}">Acceuil</a>.</p>
+        </div>
+    </div> 
+</div>
+
+{% endblock content %}

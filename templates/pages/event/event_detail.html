@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load social_share %}
+{% block title %} {{ event.titre_evenement}} {% endblock %}
+
+{% block content %}
+
+  <!--? Blog Area Start -->
+  <section class="blog_area single-post-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 posts-list">
+                <div class="single-post">
+                    <div class="feature-img">
+                        <img class="img-fluid" src="{{event.img_evenement.url}}" width="800px" height="500px" alt="{{ event.titre_evenement }}">
+                    </div>
+                    <div class="blog_details">
+                        <h2 style="color: #2d2d2d;">
+                            {{ event.titre_evenement }}
+                        </h2>
+                        <ul class="blog-info-link mt-3 mb-4">
+                            <li><a href="#"><i class="fa fa-clock"></i>: {{ event.created|timesince }}</a></li>
+                        </ul>
+                        <p class="excert">
+                            {{ event.content_evenement }}
+                        </p>
+                    </div>
+                </div>
+                <div class="navigation-top">
+                    <div class="d-sm-flex justify-content-between text-center">
+                        <p class="like-info"><span class="align-middle"><i class="fa fa-edit"></i></span> 
+                            {{ event.editeur }}
+                        </p>
+                        <ul class="social-icons">
+                            <li><a href="">
+                                <i class="fab fa-facebook-f"></i>
+                                {% post_to_facebook event.get_absolute "Facebook" %}
+                                </a>
+                            </li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> 
+                                {% post_to_twitter "{{event.slug}}." event.get_absolute_url "Twitter" %}
+                            </a></li>
+                            <li><a href="#"><i class="fab fa-whatsapp"></i>
+                                {% post_to_whatsapp event.get_absolute_url "WhatsApp" %}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog_right_sidebar">
+                    <aside class="single_sidebar_widget popular_post_widget">
+                        <h3 class="widget_title" style="color: #2d2d2d;">Voir aussi...</h3>
+                        {% for event in event_list %}
+                            <div class="media post_item">
+                                <img src="{{event.img_evenement.url}}" width="80px" height="80px" alt="{{ event.titre_evenement }}">
+                                <div class="media-body">
+                                    <a href="{% url 'event:event_detail' event.slug %}">
+                                        <h3 style="color: #2d2d2d;">{{ event.titre_evenement|truncatechars:22 }}</h3>
+                                    </a>
+                                    <p>{{ event.created|timesince }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- Blog Area End -->
+
+{% endblock content %}
