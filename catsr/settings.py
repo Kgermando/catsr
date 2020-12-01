@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '81iz58pzue*!^$s8j4*-n1cx1l7rbz&ex_+b(0+!md+2y$$2fo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['catsr.org', 'www.catsr.org', '138.68.227.178', '192.168.1.179', '*']
 
