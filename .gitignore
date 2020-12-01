@@ -1,8 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+
 *.py[cod]
 *$py.class
-
+ 
 venv/
 media-root/
 static-root/
@@ -63,6 +64,8 @@ coverage.xml
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+
+0001.initial.py
 
 # Flask stuff:
 instance/
