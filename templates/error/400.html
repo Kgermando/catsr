@@ -1,13 +1,37 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %}Erreur du serveur 404{% endblock title %}
+{% block title %}400{% endblock title %}
 
-{% block css %}
-    <link rel="stylesheet" href="{% static 'css/error.css' %}">
-{% endblock css %}
+<!-- {% block error %}
+    <link rel="stylesheet" href="{% static 'css/error-not-found.css' %}">
+{% endblock error %} -->
 
 {% block content %}
 
+
+
+ <!--? Hero Start -->
+ <div class="slider-area2" style="background:#010A1F;">
+    <div class="slider-height2 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap hero-cap2 pt-20 text-center">
+                        <h2 style="color: #ffffff;">400</h2>
+                    </div>
+                    <p>
+                        le serveur ne peut pas ou ne traitera pas la demande 
+                        en raison de quelque chose qui est perçu comme une erreur du client.
+                        
+                    </p>
+                    <p>Repartez de zéro <a href="{% url 'app:home' %}">Acceuil</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hero End -->
+<!-- 
 <div class="error">
     <div class="mainbox">
         <div class="err">4</div>
@@ -16,9 +40,9 @@
         <div class="msg">
             le serveur ne peut pas ou ne traitera pas la demande 
             en raison de quelque chose qui est perçu comme une erreur du client.
-            <p>Repartez de zéro <a href="{% url 'app:home' %}">Acceuil</a>.</p>
+            <p>Repartez de zéro <a href="{% url 'solutions:entreprise_solution' %}">Acceuil</a>.</p>
         </div>
     </div> 
-</div>
+</div> -->
 
 {% endblock content %}
