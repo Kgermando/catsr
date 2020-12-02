@@ -34,4 +34,8 @@ class Team(models.Model):
 
     def __str__(self):
         return self.prenom_nom
+
+    def get_absolute_url(self):
+        from django.urls import reverse
+        return reverse('app:about_detail_id', args=[str(self.id)])
     

@@ -16,7 +16,7 @@ class Formation(models.Model):
 
     def get_absolute_url(self):
         from django.urls import reverse
-        return reverse('formations:formations_detail', args=[str(self.id)])
+        return reverse('formations:formations_detail_id', args=[str(self.id)])
 
     def __str__(self):
         return self.titre_formation

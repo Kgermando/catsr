@@ -31,7 +31,7 @@ class Bulletin(models.Model):
 
     def get_absolute_url(self):
         from django.urls import reverse
-        return reverse('bulletin:bulletin_detail', args=[str(self.slug)])
+        return reverse('bulletin:bulletin_detail_id', args=[str(self.id)])
 
     def __str__(self):
         return self.titre_bulletin
