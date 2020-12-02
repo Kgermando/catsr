@@ -32,15 +32,16 @@
                                 {{ formation.editeur }}
                             </p>
                             <ul class="social-icons">
-                                <li><a href="">
-                                    <i class="fab fa-facebook-f"></i>
-                                    {% post_to_facebook formation.get_absolute "Facebook" %}
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-facebook-f"></i>
+                                        {% post_to_facebook formation.get_absolute "Facebook" %}
                                     </a>
                                 </li>
-                                <li><a href="#"><i class="fab fa-twitter"></i> 
+                                <li><a href=" "><i class="fa fa-twitter"></i> 
                                     {% post_to_twitter "{{formation.slug}}." formation.get_absolute_url "Twitter" %}
                                 </a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp"></i>
+                                <li><a href="#"><i class="fa fa-whatsapp"></i>
                                     {% post_to_whatsapp formation.get_absolute_url "WhatsApp" %}
                                     </a>
                                 </li>
