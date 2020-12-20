@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '81iz58pzue*!^$s8j4*-n1cx1l7rbz&ex_+b(0+!md+2y$$2fo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['catsr.org', 'www.catsr.org', '138.68.227.178', '192.168.1.179', '*']
 
@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'catsr.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 
-if DEBUG == True:
+if DEBUG == False:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
@@ -155,7 +155,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-if DEBUG == True:
+if DEBUG == False:
     STATIC_URL = '/static/'
 
     STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]

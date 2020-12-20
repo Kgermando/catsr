@@ -1,6 +1,9 @@
 ### HOST ###
 catsr-2
 
+Admin: catsr 
+Mdp: @catsr1234
+
 ### USER & PASSWORD ###
 user: root 
 password console: 0813530838@Gk

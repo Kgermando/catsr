@@ -27,7 +27,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
                             <div class="cases-img">
-                                <img src="{{event.img_evenement.url}}" alt="{{ event.titre_evenement }}">
+                                <img src="{{event.img_evenement.url}}" width="400" height="400" alt="{{ event.titre_evenement }}">
                             </div>
                             <div class="cases-caption">
                                 <h3><a href="{% url 'event:event_detail' event.slug %}">{{ event.titre_evenement }}</a></h3>
