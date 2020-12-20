@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 
     'django_social_share',
     "django_static_fontawesome",
+
 ]
 
 SITE_ID = 1
@@ -87,7 +88,7 @@ WSGI_APPLICATION = 'catsr.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 
-if DEBUG == False:
+if DEBUG == True:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
@@ -155,7 +156,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-if DEBUG == False:
+if DEBUG == True:
     STATIC_URL = '/static/'
 
     STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]

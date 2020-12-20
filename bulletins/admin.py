@@ -7,6 +7,7 @@ from bulletins.models import Bulletin
 
 # Register your models here.
 class BulletinAdmin(admin.ModelAdmin):
+
     list_display = (
         'titre_bulletin',
         'slug',
@@ -23,5 +24,6 @@ class BulletinAdmin(admin.ModelAdmin):
     search_fields = ['titre_bulletin', 'numero_bulletin', 'created',]
 
     list_per_page = 50
+
 
 admin.site.register(Bulletin, BulletinAdmin)

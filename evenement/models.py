@@ -4,7 +4,7 @@ from catsr.utils import unique_slug_generator_event
  
 # Create your models here.
 class Evenenement(models.Model):
-    titre_evenement = models.CharField(max_length=200)
+    titre_evenement = models.CharField(max_length=300)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
     img_evenement = models.ImageField(upload_to='event_img/')
     content_evenement = models.TextField()

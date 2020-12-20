@@ -33,12 +33,12 @@ sitemaps = {
 
 
 urlpatterns = [
-    path('sitemap.xml', sitemap, {'sitemaps': sitemaps},name='django.contrib.sitemaps.views.sitemap'),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
     path('', include('app.urls')),
     path('bulletins/', include('bulletins.urls')),
     path('formations/', include('formations.urls')),
     path('evenement/', include('evenement.urls')),
-    path('@catsr/', admin.site.urls),
+    path('@catsr', admin.site.urls),
 ]
 
 handler400 = 'handlers.views.handler400'
