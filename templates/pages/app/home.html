@@ -148,7 +148,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
                     <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-80">
+                    <div class="section-tittle text-center">
                         <h2>Bulletins</h2>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases">
                             <div class="cases-img">
-                                <img src="{{bulletin.img_bulletin.url}}" width="400" height="400" alt="{{ bulletin.titre_bulletin }}">
+                                <img src="{{bulletin.img_bulletin.url}}" width="300" height="200" alt="{{ bulletin.titre_bulletin }}">
                             </div>
                             <div class="cases-caption">
                                 <h3><a href="{% url 'bulletin:bulletin_detail' bulletin.slug %}">{{ bulletin.titre_bulletin }}</a></h3>
@@ -170,6 +170,39 @@
                                 <div class="prices d-flex justify-content-between">
                                     <p>Bulletin d'information N°:<span> {{ bulletin.numero_bulletin }}</span></p>
                                     <p><i class="far fa-clock"></i>:<span> {{ bulletin.created|timesince }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- Our Cases End -->
+
+    <!-- Our Cases Start -->
+    <div class="our-cases-area section-padding30">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center">
+                        <h2>Evenements sociaux</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {% for evenenement in evenenement_list %}
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases">
+                            <div class="cases-img">
+                                <img src="{{event.img_evenement.url}}" width="300" height="200" alt="{{ event.titre_evenement }}">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="{% url 'event:event_detail' event.slug %}">{{ event.titre_evenement }}</a></h3>
+                                <!-- / progress -->
+                                <div class="prices d-flex justify-content-between">
+                                    <p><i class="far fa-clock"></i>:<span> {{ event.created|timesince }}</span></p>
                                 </div>
                             </div>
                         </div>

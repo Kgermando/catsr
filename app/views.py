@@ -8,6 +8,7 @@ from django.contrib.auth.models import User
 
 from app.models import Home, ContactForm, Team
 from bulletins.models import Bulletin
+from evenement.models import Evenenement
 
 # Create your views here.
 
@@ -16,10 +17,12 @@ def home_view(request):
     docstring
     """
     home_list = Home.objects.all().order_by('-created')[:1]
-    bulletin_list = Bulletin.objects.all().order_by('-created')[:6]
+    bulletin_list = Bulletin.objects.all().order_by('-created')[:4]
+    evenenement_list = Evenenement.objects.all().order_by('-created')[:4]
     context = {
         'home_list': home_list,
-        'bulletin_list': bulletin_list
+        'bulletin_list': bulletin_list,
+        'evenenement_list': evenenement_list
     }
     template_name = 'pages/app/home.html'
     return render(request, template_name, context)

@@ -1,7 +1,7 @@
 from django.db import models
 from django.db.models.signals import pre_save
 from catsr.utils import unique_slug_generator_event
-
+ 
 # Create your models here.
 class Evenenement(models.Model):
     titre_evenement = models.CharField(max_length=200)
