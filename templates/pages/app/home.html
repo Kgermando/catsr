@@ -143,7 +143,7 @@
     </section>
     <!-- About Law End-->
     <!-- Our Cases Start -->
-    <div class="our-cases-area section-padding30">
+    <div class="our-cases-area py-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
@@ -181,7 +181,7 @@
     <!-- Our Cases End -->
 
     <!-- Our Cases Start -->
-    <div class="our-cases-area section-padding30">
+    <div class="our-cases-area pb-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
@@ -203,6 +203,39 @@
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
                                     <p><i class="far fa-clock"></i>:<span> {{ event.created|timesince }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- Our Cases End -->
+
+    <!-- Our Cases Start -->
+    <div class="our-cases-area pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center">
+                        <h2>Formations</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {% for formation in formation_list %}
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases mb-40">
+                            <div class="cases-img">
+                                <img src="{{formation.img_formation.url}}" width="300" height="200" alt="{{ formation.titre_formation }}">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation }}</a></h3>
+                                <!-- / progress -->
+                                <div class="prices d-flex justify-content-between">
+                                    <p><i class="far fa-clock"></i>:<span> {{ formation.created|timesince }}</span></p>
                                 </div>
                             </div>
                         </div>
