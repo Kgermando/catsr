@@ -31,7 +31,7 @@
                                 <img src="{{formation.img_formation.url}}" width="300" height="200" alt="{{ formation.titre_formation }}">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation }}</a></h3>
+                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation|truncatewords:10 }}</a></h3>
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
                                     <p><i class="far fa-clock"></i>:<span> {{ formation.created|timesince }}</span></p>
