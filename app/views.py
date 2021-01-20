@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 
 
-from app.models import Home, ContactForm, Team
+from app.models import Home, ContactForm, Team, Doc
 from bulletins.models import Bulletin
 from evenement.models import Evenenement
 from formations.models import Formation
@@ -63,6 +63,25 @@ def historique_view(request):
     """
     docstring
     """
-    context = {}
+    docs = Doc.objects.all()
+    context = {
+        'docs': docs
+    }
     template_name = "pages/app/historique.html"
     return render(request, template_name, context)
+
+
+def docs_view(request):
+    """
+    docs juridique
+    """
+    if request.method == 'POST':
+        titre = request.POST['titre']
+        objet = request.POST['objet']
+        document = request.FILES['document']
+        docs = Doc(titre=titre, objet=objet, document=document)
+        docs.save()
+        messages.success(request, '! Nous avons réçu votre message')
+        return redirect('/historique')
+    template_name = "pages/app/docs.html"
+    return render(request, template_name, context=None)

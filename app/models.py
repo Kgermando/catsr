@@ -39,3 +39,19 @@ class Team(models.Model):
         from django.urls import reverse
         return reverse('app:about_detail_id', args=[str(self.id)])
     
+
+class Doc(models.Model):
+    """
+    Docs juridique
+    """
+    titre = models.CharField(max_length=255)
+    objet = models.CharField(max_length=255)
+    document = models.FileField(upload_to='docs_file/')
+    created = models.DateTimeField(auto_now_add=False)
+
+    def __str__(self):
+        return self.titre
+
+    def get_absolute_url(self):
+        from django.urls import reverse
+        return reverse('app:docs_detail_id', args=[str(self.id)])

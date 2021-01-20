@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from app.models import Home, ContactForm, Team
+from app.models import Home, ContactForm, Team, Doc
 
 admin.site.site_header = 'CATSR ADMIN'
 admin.site.site_title = "Interface d'administration de l'Accueil"
@@ -57,3 +57,23 @@ class TeamAdmin(admin.ModelAdmin):
     search_fields = ['prenom_nom', 'grade', 'created',]
 
 admin.site.register(Team, TeamAdmin)
+
+
+class DocAdmin(admin.ModelAdmin):
+    list_display = (
+        'titre',
+        'objet',
+        'document',
+        'created'
+    )
+
+    list_filter = (
+        'titre',
+        'objet',
+        'created'
+    )
+
+    search_fields = ['titre', 'objet', 'created', ]
+
+
+admin.site.register(Doc, DocAdmin)

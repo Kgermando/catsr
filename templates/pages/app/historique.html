@@ -48,5 +48,33 @@
         </div>
     </section>
     <!-- Blog Area End -->
+    <div class="container">
+        <div class="section-top-border">
+            <h3 class="mb-30">Documents</h3>
+            <div class="progress-table-wrap">
+                <div class="progress-table">
+                    <div class="table-head">
+                        <div class="serial">#</div>
+                        <div class="country">Titre</div>
+                        <div class="visit">Objet</div>
+                        <div class="percentage">Liens</div>
+                    </div>
+                    <div class="table-row">
+                        {% for doc in docs %}
+                            <div class="serial">{{ doc.id }}</div>
+                            <div class="country"> 
+                                {{ doc.titre }}
+                            </div>
+                            <div class="visit">{{ doc.objet }}</div>
+                            <div class="percentage">
+                                <a href="{{ doc.document.url }}"><p>{{ doc.document }}</p> </a>
+                            </div> 
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 {% endblock content %}
