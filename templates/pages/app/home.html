@@ -9,7 +9,7 @@
     <!-- slider Area Start-->
     <div class="slider-area">
         <div class="slider-active">
-            <!-- Single Slider -->
+        
             <div class="single-slider slider-height d-flex align-items-center ">
                 <div class="container">
                     <div class="row">
@@ -18,7 +18,7 @@
                                 <div class="hero__caption">
                                     <h1 data-animation="fadeInUp" data-delay=".6s">{{ home.home_title }}</h1>
                                     <P data-animation="fadeInUp" data-delay=".8s" >{{ home.home_description }}</P>
-                                    <!-- Hero-btn -->
+                                  
                                     <div class="hero__btn">
                                         <a href="{% url 'app:contact' %}" class="btn hero-btn mb-10"  data-animation="fadeInLeft" data-delay=".8s">Contactez-Nous!</a>
                                         <a  href="tel:+243 81 503 47 01" class="cal-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">
@@ -38,10 +38,38 @@
                 </div>
             </div>
         </div>
+
+        <!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                {% for home in home_list %}
+                    <div class="carousel-item active">
+                        <img src="{{home.home_image.url}}" class="d-block w-100" alt="{{ home.home_title }}">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>{{ home.home_title }}</h5>
+                            <p>{{ home.home_description }}.</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> -->
+
     </div>
     <!-- slider Area End-->
     <!--? Services Area Start -->
-    <div class="service-area section-padding30">
+    <div class="service-area section-padding20">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
@@ -149,7 +177,7 @@
                 <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center">
-                        <h2>Bulletins</h2>
+                        <h2>Activités</h2>
                     </div>
                 </div>
             </div>
@@ -161,14 +189,14 @@
                                 <img src="{{bulletin.img_bulletin.url}}" width="300" height="200" alt="{{ bulletin.titre_bulletin }}">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{% url 'bulletin:bulletin_detail' bulletin.slug %}">{{ bulletin.titre_bulletin }}</a></h3>
+                                <h3><a href="{% url 'bulletin:bulletin_detail' bulletin.slug %}">{{ bulletin.titre_bulletin|truncatewords:10 }}</a></h3>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                 
                                 </div>
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
-                                    <p>Bulletin d'information N°:<span> {{ bulletin.numero_bulletin }}</span></p>
+                                    <p>N°:<span> {{ bulletin.id }}</span></p>
                                     <p><i class="far fa-clock"></i>:<span> {{ bulletin.created|timesince }}</span></p>
                                 </div>
                             </div>
@@ -199,7 +227,7 @@
                                 <img src="{{event.img_evenement.url}}" width="300" height="200" alt="{{ event.titre_evenement }}">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{% url 'event:event_detail' event.slug %}">{{ event.titre_evenement }}</a></h3>
+                                <h3><a href="{% url 'event:event_detail' event.slug %}">{{ event.titre_evenement|truncatewords:10 }}</a></h3>
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
                                     <p><i class="far fa-clock"></i>:<span> {{ event.created|timesince }}</span></p>
@@ -232,7 +260,7 @@
                                 <img src="{{formation.img_formation.url}}" width="300" height="200" alt="{{ formation.titre_formation }}">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation }}</a></h3>
+                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation|truncatewords:10 }}</a></h3>
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
                                     <p><i class="far fa-clock"></i>:<span> {{ formation.created|timesince }}</span></p>

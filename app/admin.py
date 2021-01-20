@@ -6,7 +6,20 @@ admin.site.site_header = 'CATSR ADMIN'
 admin.site.site_title = "Interface d'administration de l'Accueil"
 
 # Register your models here.
-admin.site.register(Home)
+class HomeAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'home_title',
+        'created'
+    )
+
+    list_filter = (
+        'home_title',
+        'created'
+    )
+
+    search_fields = ['home_title',  'created']
+admin.site.register(Home, HomeAdmin)
 
 
 class ContactFormAdmin(admin.ModelAdmin):

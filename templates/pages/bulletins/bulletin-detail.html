@@ -19,29 +19,35 @@
                                 {{ bulletin.titre_bulletin }}
                             </h2>
                             <ul class="blog-info-link mt-3 mb-4">
-                                <li><a href="#"><i class="fa fa-user"></i>Bulletin d'information N°: {{ bulletin.numero_bulletin }} CATSR</a></li>
+                                <li><a href="#"><i class="fa fa-user"></i>N°: {{ bulletin.id }}</a></li>
                             </ul>
                             <p class="excert">
                                 {{ bulletin.content_bulletin }}
                             </p>
                         </div>
-                    </div>
+                    </div>  
                     <div class="navigation-top">
                         <div class="d-sm-flex justify-content-between text-center">
                             <p class="like-info"><span class="align-middle"><i class="fa fa-edit"></i></span> 
                                 {{ bulletin.editeur }}
                             </p>
                             <ul class="social-icons">
-                                <li><a href="">
-                                    <i class="fa fa-facebook-f"></i>
-                                    {% post_to_facebook bulletin.get_absolute "Facebook" %}
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-facebook-f"></i>
+                                        {% post_to_facebook bulletin.get_absolute "Facebook" %}
                                     </a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-twitter"></i> 
-                                    {% post_to_twitter "{{bulletin.slug}}." bulletin.get_absolute_url "Twitter" %}
-                                </a></li>
-                                <li><a href="#"><i class="fa fa-whatsapp"></i>
-                                    {% post_to_whatsapp bulletin.get_absolute_url "WhatsApp" %}
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i> 
+                                        {% post_to_twitter "{{bulletin.slug}}." bulletin.get_absolute_url "Twitter" %}
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-whatsapp"></i>
+                                        {% post_to_whatsapp bulletin.get_absolute_url "WhatsApp" %}
                                     </a>
                                 </li>
                             </ul>
