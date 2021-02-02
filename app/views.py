@@ -17,7 +17,7 @@ def home_view(request):
     """
     docstring
     """
-    home_list = Home.objects.all().order_by('-created')[:1]
+    home_list = Home.objects.all().order_by('-created')
     bulletin_list = Bulletin.objects.all().order_by('-created')[:4]
     evenenement_list = Evenenement.objects.all().order_by('-created')[:4]
     formation_list = Formation.objects.all().order_by('-created')[:4]
@@ -81,7 +81,10 @@ def docs_view(request):
         document = request.FILES['document']
         docs = Doc(titre=titre, objet=objet, document=document)
         docs.save()
-        messages.success(request, '! Nous avons réçu votre message')
+        messages.success(request, '! Success')
         return redirect('/historique')
     template_name = "pages/app/docs.html"
     return render(request, template_name, context=None)
+
+
+

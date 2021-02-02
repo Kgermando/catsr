@@ -38,7 +38,7 @@ class Team(models.Model):
     def get_absolute_url(self):
         from django.urls import reverse
         return reverse('app:about_detail_id', args=[str(self.id)])
-    
+
 
 class Doc(models.Model):
     """
@@ -55,3 +55,14 @@ class Doc(models.Model):
     def get_absolute_url(self):
         from django.urls import reverse
         return reverse('app:docs_detail_id', args=[str(self.id)])
+
+
+# def newsletters(models.Model):
+#     """
+#         Email
+#     """
+#     email = models.EmailField()
+
+#     def __str__(self):
+#         return self.email
+

@@ -27,12 +27,16 @@
     <link rel="stylesheet" type="text/css" href="{% static 'fontawesome/css/all.min.css' %}"/>
 	<link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
 	<link rel="stylesheet" href="{% static 'css/slick.css' %}">
-	<link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <script src="https://use.fontawesome.com/28a6e24bf2.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+        <script src="https://use.fontawesome.com/28a6e24bf2.js"></script>
+    
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% block style %} {% endblock style %}
+    {% block carousel %} {% endblock carousel %}
+        
+        
    </head>
 <body>
     <!-- ? Preloader Start -->
@@ -68,6 +72,10 @@
     </div>
 
     <!-- JS here -->
+    
+    {% block js %}{% endblock js %}
+        
+ 
     <script src="{% static 'js/vendor/modernizr-3.5.0.min.js' %}"></script>
     <!-- Jquery, Popper, Bootstrap -->
     <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>

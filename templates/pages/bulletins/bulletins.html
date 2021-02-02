@@ -3,6 +3,10 @@
 
 {% block title %}Activités{% endblock %}
 
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock style %}
+
 {% block content %}
 
     <!--? Hero Start -->
@@ -38,7 +42,7 @@
                                 </div>
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
-                                    <p>Bulletin N°:<span> {{ bulletin.numero_bulletin }}</span></p>
+                                    <p>Bulletin N°:<span> {{ bulletin.id }}</span></p>
                                     <p><i class="far fa-clock"></i>:<span> {{ bulletin.created|timesince }}</span></p>
                                 </div>
                             </div>

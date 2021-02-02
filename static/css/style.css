@@ -222,21 +222,6 @@ p {
   font-weight: normal;
 }
 
-/* line 35, C:/Users/HP/Desktop/jun-2020/277.catsr _Non-profit/assets/scss/_common.scss */
-.bg-img-1 {
-  background-image: url(../img/slider/slider-img-1.jpg);
-}
-
-/* line 38, C:/Users/HP/Desktop/jun-2020/277.catsr _Non-profit/assets/scss/_common.scss */
-.bg-img-2 {
-  background-image: url(../img/background-img/bg-img-2.jpg);
-}
-
-/* line 41, C:/Users/HP/Desktop/jun-2020/277.catsr _Non-profit/assets/scss/_common.scss */
-.cta-bg-1 {
-  background-image: url(../img/background-img/bg-img-3.jpg);
-}
-
 /* line 46, C:/Users/HP/Desktop/jun-2020/277.catsr _Non-profit/assets/scss/_common.scss */
 .img {
   max-width: 100%;
@@ -3531,7 +3516,7 @@ hr {
 
 /* line 32, C:/Users/HP/Desktop/jun-2020/277.catsr _Non-profit/assets/scss/_h1-hero.scss */
 .slider-area {
-  background: url(../img/hero/hero3.png);
+  /* background: url(../img/hero/hero3.png); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

@@ -1,0 +1,49 @@
+
+
+/* Detail page start */
+
+    .card {
+        border: none;
+    }
+
+    .card .card-body .card-title a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+
+    .detail_item .social-icons{
+        display: flex;
+    }
+
+    .social-icons ul li {
+        text-decoration: none;
+    }
+
+    .detail_item-body {
+        justify-content: center;
+        align-self: center;
+        padding-left: 20px;
+    }
+
+
+    .detail_item-body h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 6px;
+        transition: all 0.3s linear;
+        text-decoration: none;
+    }
+
+    .detail_item-body a:hover {
+        color: #fff;
+    }
+ 
+    .detail_item-body p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 0px;
+    }
+
+
+

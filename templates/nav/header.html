@@ -1,5 +1,9 @@
 {% load static %}
 
+    {% block style %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% endblock style %}
+
 <div class="header-area">
     <div class="main-header ">
         <div class="header-top d-none d-lg-block">

@@ -11,9 +11,6 @@
         <div class="row">
             <div class="col-lg-8 posts-list">
                 <div class="single-post">
-                    <div class="feature-img">
-                        <img class="img-fluid" src="{{event.img_evenement.url}}" width="800px" height="500px" alt="{{ event.titre_evenement }}">
-                    </div>
                     <div class="blog_details">
                         <h2 style="color: #2d2d2d;">
                             {{ event.titre_evenement }}
@@ -21,32 +18,38 @@
                         <ul class="blog-info-link mt-3 mb-4">
                             <li><a href="#"><i class="fa fa-clock"></i>: {{ event.created|timesince }}</a></li>
                         </ul>
-                        <p class="excert">
-                            {{ event.content_evenement }}
-                        </p>
+                    </div>
+                    <div class="navigation-top">
+                        <div class="d-sm-flex justify-content-between text-center">
+                            <p class="like-info"><span class="align-middle"><i class="fa fa-edit"></i></span>
+                                {{ event.editeur }}
+                            </p>
+                            <ul class="social-icons">
+                                <li><a href="">
+                                        <i class="fa fa-facebook-f"></i>
+                                        {% post_to_facebook event.get_absolute "Facebook" %}
+                                    </a>
+                                </li>
+                                <li><a href="#"><i class="fb fa-twitter"></i>
+                                        {% post_to_twitter "{{event.slug}}." event.get_absolute_url "Twitter" %}
+                                    </a></li>
+                                <li><a href="#"><i class="fa fa-whatsapp"></i>
+                                        {% post_to_whatsapp event.get_absolute_url "WhatsApp" %}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-img">
+                        <img class="img-fluid" src="{{event.img_evenement.url}}" width="800px" height="500px" alt="{{ event.titre_evenement }}">
+                    </div>
+                    <div class="blog_details">
+                        <div class="excert">
+                            {{ event.content_evenement | safe }}
+                        </div>
                     </div>
                 </div>
-                <div class="navigation-top">
-                    <div class="d-sm-flex justify-content-between text-center">
-                        <p class="like-info"><span class="align-middle"><i class="fa fa-edit"></i></span> 
-                            {{ event.editeur }}
-                        </p>
-                        <ul class="social-icons">
-                            <li><a href="">
-                                <i class="fa fa-facebook-f"></i>
-                                {% post_to_facebook event.get_absolute "Facebook" %}
-                                </a>
-                            </li>
-                            <li><a href="#"><i class="fb fa-twitter"></i> 
-                                {% post_to_twitter "{{event.slug}}." event.get_absolute_url "Twitter" %}
-                            </a></li>
-                            <li><a href="#"><i class="fa fa-whatsapp"></i>
-                                {% post_to_whatsapp event.get_absolute_url "WhatsApp" %}
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+
             </div>
             <div class="col-lg-4">
                 <div class="blog_right_sidebar">

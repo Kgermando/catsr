@@ -39,6 +39,7 @@ urlpatterns = [
     path('formations/', include('formations.urls')),
     path('evenement/', include('evenement.urls')),
     path('@catsr', admin.site.urls),
+    path('tinymce/', include('tinymce.urls')),
 ]
 
 handler400 = 'handlers.views.handler400'

@@ -1,0 +1,2104 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "Home",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Team",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Doc",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Home",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Team",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Doc",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "contact_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "about_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "historique_view",
+        "importPath": "app.views",
+        "description": "app.views",
+        "isExtraImport": true,
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Bulletin",
+        "importPath": "bulletins.models",
+        "description": "bulletins.models",
+        "isExtraImport": true,
+        "detail": "bulletins.models",
+        "documentation": {}
+    },
+    {
+        "label": "Bulletin",
+        "importPath": "bulletins.models",
+        "description": "bulletins.models",
+        "isExtraImport": true,
+        "detail": "bulletins.models",
+        "documentation": {}
+    },
+    {
+        "label": "Bulletin",
+        "importPath": "bulletins.models",
+        "description": "bulletins.models",
+        "isExtraImport": true,
+        "detail": "bulletins.models",
+        "documentation": {}
+    },
+    {
+        "label": "Bulletin",
+        "importPath": "bulletins.models",
+        "description": "bulletins.models",
+        "isExtraImport": true,
+        "detail": "bulletins.models",
+        "documentation": {}
+    },
+    {
+        "label": "Evenenement",
+        "importPath": "evenement.models",
+        "description": "evenement.models",
+        "isExtraImport": true,
+        "detail": "evenement.models",
+        "documentation": {}
+    },
+    {
+        "label": "Evenenement",
+        "importPath": "evenement.models",
+        "description": "evenement.models",
+        "isExtraImport": true,
+        "detail": "evenement.models",
+        "documentation": {}
+    },
+    {
+        "label": "Evenenement",
+        "importPath": "evenement.models",
+        "description": "evenement.models",
+        "isExtraImport": true,
+        "detail": "evenement.models",
+        "documentation": {}
+    },
+    {
+        "label": "Evenenement",
+        "importPath": "evenement.models",
+        "description": "evenement.models",
+        "isExtraImport": true,
+        "detail": "evenement.models",
+        "documentation": {}
+    },
+    {
+        "label": "Formation",
+        "importPath": "formations.models",
+        "description": "formations.models",
+        "isExtraImport": true,
+        "detail": "formations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Formation",
+        "importPath": "formations.models",
+        "description": "formations.models",
+        "isExtraImport": true,
+        "detail": "formations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Formation",
+        "importPath": "formations.models",
+        "description": "formations.models",
+        "isExtraImport": true,
+        "detail": "formations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Formation",
+        "importPath": "formations.models",
+        "description": "formations.models",
+        "isExtraImport": true,
+        "detail": "formations.models",
+        "documentation": {}
+    },
+    {
+        "label": "tinymce.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tinymce.models",
+        "description": "tinymce.models",
+        "detail": "tinymce.models",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator",
+        "importPath": "catsr.utils",
+        "description": "catsr.utils",
+        "isExtraImport": true,
+        "detail": "catsr.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_event",
+        "importPath": "catsr.utils",
+        "description": "catsr.utils",
+        "isExtraImport": true,
+        "detail": "catsr.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_formation",
+        "importPath": "catsr.utils",
+        "description": "catsr.utils",
+        "isExtraImport": true,
+        "detail": "catsr.utils",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLField",
+        "importPath": "tinymce",
+        "description": "tinymce",
+        "isExtraImport": true,
+        "detail": "tinymce",
+        "documentation": {}
+    },
+    {
+        "label": "bulletin_view",
+        "importPath": "bulletins.views",
+        "description": "bulletins.views",
+        "isExtraImport": true,
+        "detail": "bulletins.views",
+        "documentation": {}
+    },
+    {
+        "label": "bulletin_detail",
+        "importPath": "bulletins.views",
+        "description": "bulletins.views",
+        "isExtraImport": true,
+        "detail": "bulletins.views",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "Sitemap",
+        "importPath": "django.contrib.sitemaps",
+        "description": "django.contrib.sitemaps",
+        "isExtraImport": true,
+        "detail": "django.contrib.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "sitemap",
+        "importPath": "django.contrib.sitemaps.views",
+        "description": "django.contrib.sitemaps.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.sitemaps.views",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "event_view",
+        "importPath": "evenement.views",
+        "description": "evenement.views",
+        "isExtraImport": true,
+        "detail": "evenement.views",
+        "documentation": {}
+    },
+    {
+        "label": "event_detail",
+        "importPath": "evenement.views",
+        "description": "evenement.views",
+        "isExtraImport": true,
+        "detail": "evenement.views",
+        "documentation": {}
+    },
+    {
+        "label": "formations_view",
+        "importPath": "formations.views",
+        "description": "formations.views",
+        "isExtraImport": true,
+        "detail": "formations.views",
+        "documentation": {}
+    },
+    {
+        "label": "formations_detail",
+        "importPath": "formations.views",
+        "description": "formations.views",
+        "isExtraImport": true,
+        "detail": "formations.views",
+        "documentation": {}
+    },
+    {
+        "label": "RequestContext",
+        "importPath": "django.template",
+        "description": "django.template",
+        "isExtraImport": true,
+        "detail": "django.template",
+        "documentation": {}
+    },
+    {
+        "label": "page_not_found",
+        "importPath": "django.views.defaults",
+        "description": "django.views.defaults",
+        "isExtraImport": true,
+        "detail": "django.views.defaults",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "management",
+        "importPath": "django.core",
+        "description": "django.core",
+        "isExtraImport": true,
+        "detail": "django.core",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.migrations.0001_initial",
+        "description": "app.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ContactForm',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('first_name', models.CharField(max_length=255)),",
+        "detail": "app.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.migrations.0002_doc",
+        "description": "app.migrations.0002_doc",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('app', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Doc',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('titre', models.CharField(max_length=255)),",
+        "detail": "app.migrations.0002_doc",
+        "documentation": {}
+    },
+    {
+        "label": "HomeAdmin",
+        "kind": 6,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "class HomeAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'home_title',\n        'created'\n    )\n    list_filter = (\n        'home_title',\n        'created'\n    )",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ContactFormAdmin",
+        "kind": 6,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "class ContactFormAdmin(admin.ModelAdmin):\n    list_display = (\n        'first_name',\n        'objet_name',\n        'email_id',\n        'phone_num',\n        'created'\n    )\n    list_filter = (\n        'first_name',",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "TeamAdmin",
+        "kind": 6,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "class TeamAdmin(admin.ModelAdmin):\n    list_display = (\n        'prenom_nom',\n        'grade',\n        'created'\n    )\n    list_filter = (\n        'prenom_nom',\n        'grade',\n        'created'",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DocAdmin",
+        "kind": 6,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "class DocAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre',\n        'objet',\n        'document',\n        'created'\n    )\n    list_filter = (\n        'titre',\n        'objet',",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "admin.site.site_header = 'CATSR ADMIN'\nadmin.site.site_title = \"Interface d'administration de l'Accueil\"\n# Register your models here.\nclass HomeAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'home_title',\n        'created'\n    )\n    list_filter = (",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "app.admin",
+        "description": "app.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration de l'Accueil\"\n# Register your models here.\nclass HomeAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'home_title',\n        'created'\n    )\n    list_filter = (\n        'home_title',",
+        "detail": "app.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "kind": 6,
+        "importPath": "app.apps",
+        "description": "app.apps",
+        "peekOfCode": "class AppConfig(AppConfig):\n    name = 'app'",
+        "detail": "app.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Home",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class Home(models.Model):\n    # home_number = models.IntegerField(default=0, unique=True)\n    home_title = models.CharField(max_length=100)\n    home_description = models.CharField(max_length=150)\n    home_image = models.ImageField(upload_to='home_img/')\n    created = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return self.home_title\nclass ContactForm(models.Model):\n    first_name = models.CharField(max_length=255)",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class ContactForm(models.Model):\n    first_name = models.CharField(max_length=255)\n    last_name = models.CharField(max_length=255)\n    objet_name = models.CharField(max_length=255)\n    email_id = models.CharField(max_length=101)\n    phone_num = models.CharField(max_length=15)\n    message = models.TextField() \n    created = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return 'Message de ' + self.first_name + ' ' + self.last_name",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Team",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class Team(models.Model):\n    \"\"\"\n    docstring\n    \"\"\"\n    prenom_nom = models.CharField(max_length=255)\n    grade = models.CharField(max_length=255)\n    img_profile = models.ImageField(upload_to='team_img/')\n    created = models.DateTimeField(auto_now_add=False)\n    def __str__(self):\n        return self.prenom_nom",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Doc",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class Doc(models.Model):\n    \"\"\"\n    Docs juridique\n    \"\"\"\n    titre = models.CharField(max_length=255)\n    objet = models.CharField(max_length=255)\n    document = models.FileField(upload_to='docs_file/')\n    created = models.DateTimeField(auto_now_add=False)\n    def __str__(self):\n        return self.titre",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "app.urls",
+        "description": "app.urls",
+        "peekOfCode": "app_name = 'app'\nurlpatterns = [\n    path('', home_view, name='home'),\n    path('contact', contact_view, name='contact'),\n    path('about', about_view, name='about'),\n    path('about/<int:id>/', about_view, name='about_detail_id'),\n    path('historique', historique_view, name='historique')\n]",
+        "detail": "app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.urls",
+        "description": "app.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', home_view, name='home'),\n    path('contact', contact_view, name='contact'),\n    path('about', about_view, name='about'),\n    path('about/<int:id>/', about_view, name='about_detail_id'),\n    path('historique', historique_view, name='historique')\n]",
+        "detail": "app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def home_view(request):\n    \"\"\"\n    docstring\n    \"\"\"\n    home_list = Home.objects.all().order_by('-created')\n    bulletin_list = Bulletin.objects.all().order_by('-created')[:4]\n    evenenement_list = Evenenement.objects.all().order_by('-created')[:4]\n    formation_list = Formation.objects.all().order_by('-created')[:4]\n    context = {\n        'home_list': home_list,",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "contact_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def contact_view(request):\n    if  request.method == 'POST':\n        first_name = request.POST['first_name']\n        last_name = request.POST['last_name']\n        objet_name = request.POST['objet_name']\n        email_id = request.POST['email_id']\n        phone_num = request.POST['phone_num']\n        message = request.POST['message']\n        contact_us = ContactForm(first_name=first_name,last_name=last_name,objet_name=objet_name,email_id=email_id,phone_num=phone_num,message=message)\n        contact_us.save()",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "about_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def about_view(request):\n    \"\"\"\n    docstring\n    \"\"\"\n    team_list = Team.objects.all().order_by('-created')\n    context = {\n        'team_list': team_list\n    }\n    template_name = \"pages/app/about.html\"\n    return render(request, template_name, context)",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "historique_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def historique_view(request):\n    \"\"\"\n    docstring\n    \"\"\"\n    docs = Doc.objects.all()\n    context = {\n        'docs': docs\n    }\n    template_name = \"pages/app/historique.html\"\n    return render(request, template_name, context)",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "docs_view",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def docs_view(request):\n    \"\"\"\n    docs juridique\n    \"\"\"\n    if request.method == 'POST':\n        titre = request.POST['titre']\n        objet = request.POST['objet']\n        document = request.FILES['document']\n        docs = Doc(titre=titre, objet=objet, document=document)\n        docs.save()",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "bulletins.migrations.0001_initial",
+        "description": "bulletins.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Bulletin',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('titre_bulletin', models.CharField(max_length=200)),",
+        "detail": "bulletins.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "bulletins.migrations.0002_auto_20201220_1322",
+        "description": "bulletins.migrations.0002_auto_20201220_1322",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('bulletins', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='bulletin',\n            name='enfants_scolarise_filles',\n            field=models.IntegerField(blank=True, null=True),\n        ),",
+        "detail": "bulletins.migrations.0002_auto_20201220_1322",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "bulletins.migrations.0003_auto_20210130_0947",
+        "description": "bulletins.migrations.0003_auto_20210130_0947",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('bulletins', '0002_auto_20201220_1322'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='bulletin',\n            name='content_bulletin',\n            field=tinymce.models.HTMLField(verbose_name='Content'),\n        ),",
+        "detail": "bulletins.migrations.0003_auto_20210130_0947",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "bulletins.migrations.0004_auto_20210130_1011",
+        "description": "bulletins.migrations.0004_auto_20210130_1011",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('bulletins', '0003_auto_20210130_0947'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='bulletin',\n            name='numero_bulletin',\n        ),\n        migrations.AlterField(",
+        "detail": "bulletins.migrations.0004_auto_20210130_1011",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "bulletins.migrations.0005_auto_20210130_1012",
+        "description": "bulletins.migrations.0005_auto_20210130_1012",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('bulletins', '0004_auto_20210130_1011'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='bulletin',\n            name='content_bulletin',\n            field=tinymce.models.HTMLField(verbose_name='Content'),\n        ),",
+        "detail": "bulletins.migrations.0005_auto_20210130_1012",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "bulletins.migrations.0006_auto_20210130_1022",
+        "description": "bulletins.migrations.0006_auto_20210130_1022",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('bulletins', '0005_auto_20210130_1012'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='bulletin',\n            name='content_bulletin',\n            field=tinymce.models.HTMLField(verbose_name='content_bulletin'),\n        ),",
+        "detail": "bulletins.migrations.0006_auto_20210130_1022",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "bulletins.migrations.0007_auto_20210202_0715",
+        "description": "bulletins.migrations.0007_auto_20210202_0715",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('bulletins', '0006_auto_20210130_1022'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='bulletin',\n            name='enfants_formation_professionnelle',\n        ),\n        migrations.RemoveField(",
+        "detail": "bulletins.migrations.0007_auto_20210202_0715",
+        "documentation": {}
+    },
+    {
+        "label": "BulletinAdmin",
+        "kind": 6,
+        "importPath": "bulletins.admin",
+        "description": "bulletins.admin",
+        "peekOfCode": "class BulletinAdmin(admin.ModelAdmin):\n    # formfield_overrides = {\n    #     models.TextField: {'widget': TinyMCE()}\n    # }\n    # content_bulletin\n    list_display = (\n        'id',\n        'titre_bulletin',\n        'slug',\n        # 'numero_bulletin',",
+        "detail": "bulletins.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "bulletins.admin",
+        "description": "bulletins.admin",
+        "peekOfCode": "admin.site.site_header = 'CATSR ADMIN'\nadmin.site.site_title = \"Interface d'administration de l'Accueil\"\nfrom bulletins.models import Bulletin\n# from tinymce.widgets import TinyMCE\n# from tinymce import HTMLField\n# Register your models here.\nclass BulletinAdmin(admin.ModelAdmin):\n    # formfield_overrides = {\n    #     models.TextField: {'widget': TinyMCE()}\n    # }",
+        "detail": "bulletins.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "bulletins.admin",
+        "description": "bulletins.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration de l'Accueil\"\nfrom bulletins.models import Bulletin\n# from tinymce.widgets import TinyMCE\n# from tinymce import HTMLField\n# Register your models here.\nclass BulletinAdmin(admin.ModelAdmin):\n    # formfield_overrides = {\n    #     models.TextField: {'widget': TinyMCE()}\n    # }\n    # content_bulletin",
+        "detail": "bulletins.admin",
+        "documentation": {}
+    },
+    {
+        "label": "BulletinsConfig",
+        "kind": 6,
+        "importPath": "bulletins.apps",
+        "description": "bulletins.apps",
+        "peekOfCode": "class BulletinsConfig(AppConfig):\n    name = 'bulletins'",
+        "detail": "bulletins.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Bulletin",
+        "kind": 6,
+        "importPath": "bulletins.models",
+        "description": "bulletins.models",
+        "peekOfCode": "class Bulletin(models.Model):\n    \"\"\"\n    docstring\n    \"\"\"\n    titre_bulletin = models.CharField(max_length=200)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    img_bulletin = models.ImageField(upload_to='bulletin_img/')\n    content_bulletin = HTMLField('content_bulletin')\n    editeur = models.CharField(max_length=200)\n    created = models.DateTimeField(auto_now_add=False)",
+        "detail": "bulletins.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "bulletins.models",
+        "description": "bulletins.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator(instance)\npre_save.connect(tag_pre_save_receiver, sender=Bulletin)",
+        "detail": "bulletins.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "bulletins.urls",
+        "description": "bulletins.urls",
+        "peekOfCode": "app_name = 'bulletin'\nurlpatterns = [\n    path('', bulletin_view, name='bulletin'),\n    path('bulletin/<slug:slug>/', bulletin_detail, name='bulletin_detail'),\n    path('bulletin/<int:id>/', bulletin_detail, name='bulletin_detail_id')\n]",
+        "detail": "bulletins.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "bulletins.urls",
+        "description": "bulletins.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', bulletin_view, name='bulletin'),\n    path('bulletin/<slug:slug>/', bulletin_detail, name='bulletin_detail'),\n    path('bulletin/<int:id>/', bulletin_detail, name='bulletin_detail_id')\n]",
+        "detail": "bulletins.urls",
+        "documentation": {}
+    },
+    {
+        "label": "bulletin_view",
+        "kind": 2,
+        "importPath": "bulletins.views",
+        "description": "bulletins.views",
+        "peekOfCode": "def bulletin_view(request):\n    \"\"\"\n    docstring\n    \"\"\"\n    bulletin = Bulletin.objects.all().order_by('-created')\n    paginator = Paginator(bulletin, 9)\n    page = request.GET.get('page')\n    try:\n        bulletin_list = paginator.page(page)\n    except PageNotAnInteger:",
+        "detail": "bulletins.views",
+        "documentation": {}
+    },
+    {
+        "label": "bulletin_detail",
+        "kind": 2,
+        "importPath": "bulletins.views",
+        "description": "bulletins.views",
+        "peekOfCode": "def bulletin_detail(request, slug):\n    \"\"\"\n    docstring\n    \"\"\"\n    bulletin = get_object_or_404(Bulletin, slug=slug)\n    bulletin_list = Bulletin.objects.all().order_by('-created')[:5]\n    context = {\n        'bulletin': bulletin,\n        'bulletin_list': bulletin_list\n    }",
+        "detail": "bulletins.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "catsr.asgi",
+        "description": "catsr.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "catsr.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '81iz58pzue*!^$s8j4*-n1cx1l7rbz&ex_+b(0+!md+2y$$2fo'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['catsr.org', 'www.catsr.org', '138.68.227.178', '192.168.1.179', '*']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "SECRET_KEY = '81iz58pzue*!^$s8j4*-n1cx1l7rbz&ex_+b(0+!md+2y$$2fo'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['catsr.org', 'www.catsr.org', '138.68.227.178', '192.168.1.179', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['catsr.org', 'www.catsr.org', '138.68.227.178', '192.168.1.179', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['catsr.org', 'www.catsr.org', '138.68.227.178', '192.168.1.179', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.sites',",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.sites',\n    'django.contrib.sitemaps',\n    'app',",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SITE_ID",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "SITE_ID = 1\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'catsr.urls'",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "ROOT_URLCONF = 'catsr.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'catsr.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.1/ref/settings/#databases\nif DEBUG == True:\n    DATABASES = {\n        'default': {\n            'ENGINE': 'django.db.backends.sqlite3',\n            'NAME': (BASE_DIR / 'db.sqlite3'),\n        }\n    }",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'Africa/Kinshasa'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#tiny mce config\n# TINYMCE_DEFAULT_CONFIG = {\n#     'height': 360,\n#     'width': 1120,\n#     'cleanup_on_startup': True,",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "TIME_ZONE = 'Africa/Kinshasa'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#tiny mce config\n# TINYMCE_DEFAULT_CONFIG = {\n#     'height': 360,\n#     'width': 1120,\n#     'cleanup_on_startup': True,\n#     'custom_undo_redo_levels': 20,",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#tiny mce config\n# TINYMCE_DEFAULT_CONFIG = {\n#     'height': 360,\n#     'width': 1120,\n#     'cleanup_on_startup': True,\n#     'custom_undo_redo_levels': 20,\n#     'selector': 'textarea',",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n#tiny mce config\n# TINYMCE_DEFAULT_CONFIG = {\n#     'height': 360,\n#     'width': 1120,\n#     'cleanup_on_startup': True,\n#     'custom_undo_redo_levels': 20,\n#     'selector': 'textarea',\n#     'theme': 'modern',",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "USE_TZ = True\n#tiny mce config\n# TINYMCE_DEFAULT_CONFIG = {\n#     'height': 360,\n#     'width': 1120,\n#     'cleanup_on_startup': True,\n#     'custom_undo_redo_levels': 20,\n#     'selector': 'textarea',\n#     'theme': 'modern',\n#     'plugins': '''",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGE_TAGS",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "MESSAGE_TAGS = {\n    messages.ERROR: 'danger'\n}\n# Config/settings.py\nDEFAULT_FROM_EMAIL = 'contact@catsr.org'\nEMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nif DEBUG == True:\n    STATIC_URL = '/static/'",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = 'contact@catsr.org'\nEMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nif DEBUG == True:\n    STATIC_URL = '/static/'\n    STATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n    STATIC_ROOT = os.path.join(BASE_DIR, \"static-root\")\n    MEDIA_URL = '/media/'\n    MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root')",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nif DEBUG == True:\n    STATIC_URL = '/static/'\n    STATICFILES_DIRS = [os.path.join(BASE_DIR, \"static\")]\n    STATIC_ROOT = os.path.join(BASE_DIR, \"static-root\")\n    MEDIA_URL = '/media/'\n    MEDIA_ROOT = os.path.join(BASE_DIR, 'media-root')\nelse:",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BulletinSitemap",
+        "kind": 6,
+        "importPath": "catsr.sitemaps",
+        "description": "catsr.sitemaps",
+        "peekOfCode": "class BulletinSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Bulletin.objects.all()\nclass EvenenementSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Evenenement.objects.all()",
+        "detail": "catsr.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "EvenenementSitemap",
+        "kind": 6,
+        "importPath": "catsr.sitemaps",
+        "description": "catsr.sitemaps",
+        "peekOfCode": "class EvenenementSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Evenenement.objects.all()\nclass FormationSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Formation.objects.all()",
+        "detail": "catsr.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "FormationSitemap",
+        "kind": 6,
+        "importPath": "catsr.sitemaps",
+        "description": "catsr.sitemaps",
+        "peekOfCode": "class FormationSitemap(Sitemap):\n    changefreq = 'daily'\n    priority = 1.0\n    def items(self):\n        return Formation.objects.all()\nclass StaticViewSitemap(Sitemap):\n    priority = 1.0\n    changefreq = 'daily'\n    def items(self):\n        return ['app:home', 'app:about', 'app:contact', 'app:historique']",
+        "detail": "catsr.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "StaticViewSitemap",
+        "kind": 6,
+        "importPath": "catsr.sitemaps",
+        "description": "catsr.sitemaps",
+        "peekOfCode": "class StaticViewSitemap(Sitemap):\n    priority = 1.0\n    changefreq = 'daily'\n    def items(self):\n        return ['app:home', 'app:about', 'app:contact', 'app:historique']\n    def location(self, item):\n        return reverse(item)",
+        "detail": "catsr.sitemaps",
+        "documentation": {}
+    },
+    {
+        "label": "sitemaps",
+        "kind": 5,
+        "importPath": "catsr.urls",
+        "description": "catsr.urls",
+        "peekOfCode": "sitemaps = {\n    'bulletins-view' : BulletinSitemap,\n    'evenement-view' : EvenenementSitemap,\n    'formations-view' : FormationSitemap,\n    'static': StaticViewSitemap,\n    }\nurlpatterns = [\n    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),\n    path('', include('app.urls')),\n    path('bulletins/', include('bulletins.urls')),",
+        "detail": "catsr.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "catsr.urls",
+        "description": "catsr.urls",
+        "peekOfCode": "urlpatterns = [\n    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),\n    path('', include('app.urls')),\n    path('bulletins/', include('bulletins.urls')),\n    path('formations/', include('formations.urls')),\n    path('evenement/', include('evenement.urls')),\n    path('@catsr', admin.site.urls),\n    path('tinymce/', include('tinymce.urls')),\n]\nhandler400 = 'handlers.views.handler400'",
+        "detail": "catsr.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler400",
+        "kind": 5,
+        "importPath": "catsr.urls",
+        "description": "catsr.urls",
+        "peekOfCode": "handler400 = 'handlers.views.handler400'\nhandler403 = 'handlers.views.handler403'\nhandler404 = 'handlers.views.handler404'\nhandler500 = 'handlers.views.handler500'\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "catsr.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler403",
+        "kind": 5,
+        "importPath": "catsr.urls",
+        "description": "catsr.urls",
+        "peekOfCode": "handler403 = 'handlers.views.handler403'\nhandler404 = 'handlers.views.handler404'\nhandler500 = 'handlers.views.handler500'\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "catsr.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "kind": 5,
+        "importPath": "catsr.urls",
+        "description": "catsr.urls",
+        "peekOfCode": "handler404 = 'handlers.views.handler404'\nhandler500 = 'handlers.views.handler500'\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "catsr.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler500",
+        "kind": 5,
+        "importPath": "catsr.urls",
+        "description": "catsr.urls",
+        "peekOfCode": "handler500 = 'handlers.views.handler500'\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "catsr.urls",
+        "documentation": {}
+    },
+    {
+        "label": "random_string_generator",
+        "kind": 2,
+        "importPath": "catsr.utils",
+        "description": "catsr.utils",
+        "peekOfCode": "def random_string_generator(size=10, chars=string.ascii_lowercase + string.digits):\n    return ''.join(random.choice(chars) for _ in range(size))\ndef unique_slug_generator(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre_bulletin)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:",
+        "detail": "catsr.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator",
+        "kind": 2,
+        "importPath": "catsr.utils",
+        "description": "catsr.utils",
+        "peekOfCode": "def unique_slug_generator(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre_bulletin)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "catsr.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_formation",
+        "kind": 2,
+        "importPath": "catsr.utils",
+        "description": "catsr.utils",
+        "peekOfCode": "def unique_slug_generator_formation(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre_formation)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "catsr.utils",
+        "documentation": {}
+    },
+    {
+        "label": "unique_slug_generator_event",
+        "kind": 2,
+        "importPath": "catsr.utils",
+        "description": "catsr.utils",
+        "peekOfCode": "def unique_slug_generator_event(instance, new_slug=None):\n    if new_slug is not None:\n        slug = new_slug\n    else:\n        slug = slugify(instance.titre_evenement)\n    Klass = instance.__class__\n    qs_exists = Klass.objects.filter(slug=slug).exists()\n    if qs_exists:\n        new_slug = \"{slug}-{randomstr}\".format(\n            slug=slug,",
+        "detail": "catsr.utils",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "catsr.wsgi",
+        "description": "catsr.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "catsr.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "evenement.migrations.0001_initial",
+        "description": "evenement.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Evenenement',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('titre_evenement', models.CharField(max_length=200)),",
+        "detail": "evenement.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "evenement.migrations.0002_auto_20201220_1332",
+        "description": "evenement.migrations.0002_auto_20201220_1332",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('evenement', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='evenenement',\n            name='titre_evenement',\n            field=models.CharField(max_length=300),\n        ),",
+        "detail": "evenement.migrations.0002_auto_20201220_1332",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "evenement.migrations.0003_auto_20210202_0743",
+        "description": "evenement.migrations.0003_auto_20210202_0743",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('evenement', '0002_auto_20201220_1332'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='evenenement',\n            name='content_evenement',\n            field=tinymce.models.HTMLField(verbose_name='content_evenement'),\n        ),",
+        "detail": "evenement.migrations.0003_auto_20210202_0743",
+        "documentation": {}
+    },
+    {
+        "label": "EvenementAdmin",
+        "kind": 6,
+        "importPath": "evenement.admin",
+        "description": "evenement.admin",
+        "peekOfCode": "class EvenementAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_evenement',\n        'created'\n    )\n    list_filter = (\n        'titre_evenement',\n        'created'\n    )\n    search_fields = ['titre_evenement', 'created',]",
+        "detail": "evenement.admin",
+        "documentation": {}
+    },
+    {
+        "label": "EvenementConfig",
+        "kind": 6,
+        "importPath": "evenement.apps",
+        "description": "evenement.apps",
+        "peekOfCode": "class EvenementConfig(AppConfig):\n    name = 'evenement'",
+        "detail": "evenement.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Evenenement",
+        "kind": 6,
+        "importPath": "evenement.models",
+        "description": "evenement.models",
+        "peekOfCode": "class Evenenement(models.Model):\n    titre_evenement = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    img_evenement = models.ImageField(upload_to='event_img/')\n    content_evenement = HTMLField('content_evenement')\n    editeur = models.CharField(max_length=200)\n    created = models.DateTimeField(auto_now_add=False)\n    def get_absolute_url(self):\n        from django.urls import reverse\n        return reverse('event:event_detail_id', args=[str(self.id)])",
+        "detail": "evenement.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "evenement.models",
+        "description": "evenement.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_event(instance)\npre_save.connect(tag_pre_save_receiver, sender=Evenenement)",
+        "detail": "evenement.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "evenement.urls",
+        "description": "evenement.urls",
+        "peekOfCode": "app_name = 'event'\nurlpatterns = [\n    path('', event_view, name='event'),\n    path('event_detail/<slug:slug>/', event_detail, name='event_detail'),\n    path('event_detail/<int:id>/', event_detail, name='event_detail_id'),\n]",
+        "detail": "evenement.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "evenement.urls",
+        "description": "evenement.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', event_view, name='event'),\n    path('event_detail/<slug:slug>/', event_detail, name='event_detail'),\n    path('event_detail/<int:id>/', event_detail, name='event_detail_id'),\n]",
+        "detail": "evenement.urls",
+        "documentation": {}
+    },
+    {
+        "label": "event_view",
+        "kind": 2,
+        "importPath": "evenement.views",
+        "description": "evenement.views",
+        "peekOfCode": "def event_view(request):\n    \"\"\"\n    docstring\n    \"\"\"\n    event = Evenenement.objects.all().order_by('-created')\n    paginator = Paginator(event, 9)\n    page = request.GET.get('page')\n    try:\n        event_list = paginator.page(page)\n    except PageNotAnInteger:",
+        "detail": "evenement.views",
+        "documentation": {}
+    },
+    {
+        "label": "event_detail",
+        "kind": 2,
+        "importPath": "evenement.views",
+        "description": "evenement.views",
+        "peekOfCode": "def event_detail(request, slug):\n    \"\"\"\n    docstring\n    \"\"\"\n    event = get_object_or_404(Evenenement, slug=slug)\n    event_list = Evenenement.objects.all().order_by('-created')[:5]\n    context = {\n        'event': event,\n        'event_list': event_list\n    }",
+        "detail": "evenement.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "formations.migrations.0001_initial",
+        "description": "formations.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Formation',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('titre_formation', models.CharField(max_length=200)),",
+        "detail": "formations.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "formations.migrations.0002_auto_20210202_0743",
+        "description": "formations.migrations.0002_auto_20210202_0743",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('formations', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='formation',\n            name='content_formation',\n            field=tinymce.models.HTMLField(verbose_name='content_formation'),\n        ),",
+        "detail": "formations.migrations.0002_auto_20210202_0743",
+        "documentation": {}
+    },
+    {
+        "label": "FormationAdmin",
+        "kind": 6,
+        "importPath": "formations.admin",
+        "description": "formations.admin",
+        "peekOfCode": "class FormationAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_formation',\n        'slug',\n        'created'\n    )\n    list_filter = (\n        'titre_formation',\n        'created'\n    )",
+        "detail": "formations.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "formations.admin",
+        "description": "formations.admin",
+        "peekOfCode": "admin.site.site_header = 'CATSR ADMIN'\nadmin.site.site_title = \"Interface d'administration de l'Accueil\"\nfrom formations.models import Formation\n# Register your models here.\nclass FormationAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_formation',\n        'slug',\n        'created'\n    )",
+        "detail": "formations.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "formations.admin",
+        "description": "formations.admin",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration de l'Accueil\"\nfrom formations.models import Formation\n# Register your models here.\nclass FormationAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_formation',\n        'slug',\n        'created'\n    )\n    list_filter = (",
+        "detail": "formations.admin",
+        "documentation": {}
+    },
+    {
+        "label": "FormationsConfig",
+        "kind": 6,
+        "importPath": "formations.apps",
+        "description": "formations.apps",
+        "peekOfCode": "class FormationsConfig(AppConfig):\n    name = 'formations'",
+        "detail": "formations.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Formation",
+        "kind": 6,
+        "importPath": "formations.models",
+        "description": "formations.models",
+        "peekOfCode": "class Formation(models.Model):\n    \"\"\"\n    docstring\n    \"\"\"\n    titre_formation = models.CharField(max_length=200)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    img_formation = models.ImageField(upload_to='formations_img/')\n    content_formation = HTMLField('content_formation')\n    editeur = models.CharField(max_length=200)\n    created = models.DateTimeField(auto_now_add=False)",
+        "detail": "formations.models",
+        "documentation": {}
+    },
+    {
+        "label": "tag_pre_save_receiver",
+        "kind": 2,
+        "importPath": "formations.models",
+        "description": "formations.models",
+        "peekOfCode": "def tag_pre_save_receiver(sender, instance, *args, **kwargs):\n    if not instance.slug:\n        instance.slug = unique_slug_generator_formation(instance)\npre_save.connect(tag_pre_save_receiver, sender=Formation)",
+        "detail": "formations.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "formations.urls",
+        "description": "formations.urls",
+        "peekOfCode": "app_name = 'formations'\nurlpatterns = [\n    path('', formations_view, name='formations'),\n    path('formations/<slug:slug>/', formations_detail, name='formations_detail'),\n    path('formations/<int:id>/', formations_detail, name='formations_detail_id')\n]",
+        "detail": "formations.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "formations.urls",
+        "description": "formations.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', formations_view, name='formations'),\n    path('formations/<slug:slug>/', formations_detail, name='formations_detail'),\n    path('formations/<int:id>/', formations_detail, name='formations_detail_id')\n]",
+        "detail": "formations.urls",
+        "documentation": {}
+    },
+    {
+        "label": "formations_view",
+        "kind": 2,
+        "importPath": "formations.views",
+        "description": "formations.views",
+        "peekOfCode": "def formations_view(request):\n    \"\"\"\n    docstring\n    \"\"\"\n    formation = Formation.objects.all().order_by('-created')\n    paginator = Paginator(formation, 9)\n    page = request.GET.get('page')\n    try:\n        formation_list = paginator.page(page)\n    except PageNotAnInteger:",
+        "detail": "formations.views",
+        "documentation": {}
+    },
+    {
+        "label": "formations_detail",
+        "kind": 2,
+        "importPath": "formations.views",
+        "description": "formations.views",
+        "peekOfCode": "def formations_detail(request, slug):\n    \"\"\"\n    docstring\n    \"\"\"\n    formation = get_object_or_404(Formation, slug=slug)\n    formation_list = Formation.objects.all().order_by('-created')[:5]\n    context = {\n        'formation': formation,\n        'formation_list': formation_list\n    }",
+        "detail": "formations.views",
+        "documentation": {}
+    },
+    {
+        "label": "HandlersConfig",
+        "kind": 6,
+        "importPath": "handlers.apps",
+        "description": "handlers.apps",
+        "peekOfCode": "class HandlersConfig(AppConfig):\n    name = 'handlers'",
+        "detail": "handlers.apps",
+        "documentation": {}
+    },
+    {
+        "label": "handler400",
+        "kind": 2,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "def handler400(request, exception):\n\treturn render(request,  template_name='error/400.html')\n\tresponse.status_code = 400\n\treturn response\n#Permission denied\ndef handler403(request, exception):\n\treturn render(request,  template_name='error/403.html')\n\tresponse.status_code = 403\n\treturn response\n#Page not found",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "handler403",
+        "kind": 2,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "def handler403(request, exception):\n\treturn render(request,  template_name='error/403.html')\n\tresponse.status_code = 403\n\treturn response\n#Page not found\ndef handler404(request, exception):\n\treturn render(request,  template_name='error/404.html')\n\tresponse.status_code = 404\n\treturn response\n#Server error",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "kind": 2,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "def handler404(request, exception):\n\treturn render(request,  template_name='error/404.html')\n\tresponse.status_code = 404\n\treturn response\n#Server error\ndef handler500(request):\n\treturn render(request,  template_name='error/500.html')\n\tresponse.status_code = 500\n\treturn response",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "handler500",
+        "kind": 2,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "def handler500(request):\n\treturn render(request,  template_name='error/500.html')\n\tresponse.status_code = 500\n\treturn response",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse.status_code",
+        "kind": 5,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "\tresponse.status_code = 400\n\treturn response\n#Permission denied\ndef handler403(request, exception):\n\treturn render(request,  template_name='error/403.html')\n\tresponse.status_code = 403\n\treturn response\n#Page not found\ndef handler404(request, exception):\n\treturn render(request,  template_name='error/404.html')",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse.status_code",
+        "kind": 5,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "\tresponse.status_code = 403\n\treturn response\n#Page not found\ndef handler404(request, exception):\n\treturn render(request,  template_name='error/404.html')\n\tresponse.status_code = 404\n\treturn response\n#Server error\ndef handler500(request):\n\treturn render(request,  template_name='error/500.html')",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse.status_code",
+        "kind": 5,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "\tresponse.status_code = 404\n\treturn response\n#Server error\ndef handler500(request):\n\treturn render(request,  template_name='error/500.html')\n\tresponse.status_code = 500\n\treturn response",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse.status_code",
+        "kind": 5,
+        "importPath": "handlers.views",
+        "description": "handlers.views",
+        "peekOfCode": "\tresponse.status_code = 500\n\treturn response",
+        "detail": "handlers.views",
+        "documentation": {}
+    },
+    {
+        "label": "importlib_load_entry_point",
+        "kind": 2,
+        "importPath": "venv.Scripts.autopep8-script",
+        "description": "venv.Scripts.autopep8-script",
+        "peekOfCode": "def importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')\n    matches = (\n        entry_point\n        for entry_point in distribution(dist_name).entry_points\n        if entry_point.group == group and entry_point.name == name\n    )\n    return next(matches).load()\nglobals().setdefault('load_entry_point', importlib_load_entry_point)\nif __name__ == '__main__':",
+        "detail": "venv.Scripts.autopep8-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "venv.Scripts.autopep8-script",
+        "description": "venv.Scripts.autopep8-script",
+        "peekOfCode": "__requires__ = 'autopep8==1.5.4'\ntry:\n    from importlib.metadata import distribution\nexcept ImportError:\n    try:\n        from importlib_metadata import distribution\n    except ImportError:\n        from pkg_resources import load_entry_point\ndef importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')",
+        "detail": "venv.Scripts.autopep8-script",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.jp",
+        "description": "venv.Scripts.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": "venv.Scripts.jp",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'catsr.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

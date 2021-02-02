@@ -3,32 +3,33 @@
 {% load social_share %}
 {% block title %}{{ bulletin.titre_bulletin }} {% endblock %}
 
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock style %}
+
 {% block content %}
 
-     <!--? Blog Area Start -->
-     <section class="blog_area single-post-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 posts-list">
-                    <div class="single-post">
-                        <div class="feature-img">
-                            <img class="img-fluid" src="{{bulletin.img_bulletin.url}}" width="800px" height="500px" alt="{{ bulletin.titre_bulletin }}">
-                        </div>
-                        <div class="blog_details">
-                            <h2 style="color: #2d2d2d;">
-                                {{ bulletin.titre_bulletin }}
-                            </h2>
-                            <ul class="blog-info-link mt-3 mb-4">
-                                <li><a href="#"><i class="fa fa-user"></i>N°: {{ bulletin.id }}</a></li>
-                            </ul>
-                            <p class="excert">
-                                {{ bulletin.content_bulletin }}
-                            </p>
-                        </div>
-                    </div>  
+<!--? Blog Area Start -->
+<section class="blog_area single-post-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 posts-list">
+                <div class="single-post">
+                    <div class="blog_details pb-5">
+                        <h1 style="color: #2d2d2d;" style="font-size: 28px;">
+                            <strong>{{ bulletin.titre_bulletin }}</strong>
+                        </h1>
+                        <ul class="blog-info-link mt-3 mb-4">
+                            <li><a href="#"><i class="fa fa-user"></i>Article N°: {{ bulletin.id }}</a></li>
+                        </ul>
+                    </div>
                     <div class="navigation-top">
                         <div class="d-sm-flex justify-content-between text-center">
-                            <p class="like-info"><span class="align-middle"><i class="fa fa-edit"></i></span> 
+                            <p class="like-info">
+                                <span class="align-middle">
+                                    <i class="fa fa-edit"></i>
+                                </span>
                                 {{ bulletin.editeur }}
                             </p>
                             <ul class="social-icons">
@@ -40,7 +41,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fa fa-twitter"></i> 
+                                        <i class="fa fa-twitter"></i>
                                         {% post_to_twitter "{{bulletin.slug}}." bulletin.get_absolute_url "Twitter" %}
                                     </a>
                                 </li>
@@ -53,154 +54,41 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog_right_sidebar">
-                        <aside class="single_sidebar_widget popular_post_widget">
-                            <h3 class="widget_title" style="color: #2d2d2d;">Voir aussi...</h3>
-                            {% for bulletin in bulletin_list %}
-                                <div class="media post_item">
-                                    <img src="{{bulletin.img_bulletin.url}}" width="80px" height="80px" alt="{{ bulletin.titre_bulletin }}">
-                                    <div class="media-body">
-                                        <a href="{% url 'bulletin:bulletin_detail' bulletin.slug %}">
-                                            <h3 style="color: #2d2d2d;">{{ bulletin.titre_bulletin|truncatechars:22 }}</h3>
-                                        </a>
-                                        <p>{{ bulletin.created|timesince }}</p>
-                                    </div>
-                                </div>
-                            {% endfor %}
-                        </aside>
+
+                    <div class="feature-img">
+                        <img class="img-fluid" src="{{bulletin.img_bulletin.url}}" width="800px" height="500px"
+                            alt="{{ bulletin.titre_bulletin }}">
                     </div>
-                </div>
-            </div>
-            <!--? Count Down Start -->
-            <div class="count-down-area pt-25 section-bg" data-background="{% static 'img/gallery/section_bg02.png' %}">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-12 col-md-12">
-                            <div class="count-down-wrapper" >
-                                <div class="row justify-content-between">
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.total_enfant_scolarise }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Total d'enfants scolarisés</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.enfants_scolarise_filles }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre d'enfants filles scolarisés</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.enfants_formation_professionnelle }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre d'enfants orientés et accompagnés en formation professionnelle</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.enfants_formation_professionnelle_filles }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre des filles orientés et accompagnés en formation professionnelle</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.enfants_jeunes_adultes }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre d'enfants, jeunes et adultes contactés lors de la descente sur le terrain</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.nombre_enfants_identifies }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre d'enfants identifiés</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.nombre_contacts }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre d'enfants contactés</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.nombre_entretiens_realises }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre d'entretiens réalisés</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.nombre_suivi_familial }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre de suivis familial</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.nombre_enquetes_realises }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre d'enquêtes realisés</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.nombre_suivi_scolarise }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre de suivis scolarisés</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.nombre_suivi_formations_professionnelles }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre de suivis en formations professionnelles</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.nombre_animations_rue }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre d'animations des rue</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- Counter Up -->
-                                        <div class="single-counter text-center">
-                                            <span class="counter color-green">{{ bulletin.nombre_reinsertions_familiales }}</span>
-                                            <span class="plus">+</span>
-                                            <p class="color-green">Nombre de reinsertions familiales</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="blog_details">
+                        <div class="excert">
+                            {{ bulletin.content_bulletin | safe }}
                         </div>
                     </div>
                 </div>
+                
             </div>
-            <!-- Count Down End -->
+            <div class="col-lg-4">
+                <div class="blog_right_sidebar">
+                    <aside class="single_sidebar_widget popular_post_widget">
+                        <h3 class="widget_title" style="color: #2d2d2d;">Voir aussi...</h3>
+                        {% for bulletin in bulletin_list %}
+                        <div class="media post_item">
+                            <img src="{{bulletin.img_bulletin.url}}" width="80px" height="80px"
+                                alt="{{ bulletin.titre_bulletin }}">
+                            <div class="media-body">
+                                <a href="{% url 'bulletin:bulletin_detail' bulletin.slug %}">
+                                    <h3 style="color: #2d2d2d;">{{ bulletin.titre_bulletin|truncatechars:22 }}</h3>
+                                </a>
+                                <p>{{ bulletin.created|timesince }}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </aside>
+                </div>
+            </div>
         </div>
-    </section>
-     <!-- Blog Area End -->
+    </div>
+</section>
+<!-- Blog Area End -->
 
 {% endblock content %}

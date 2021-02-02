@@ -2,6 +2,8 @@ from django.db import models
 from django.db.models.signals import pre_save
 from catsr.utils import unique_slug_generator_formation
 
+from tinymce import HTMLField
+
 # Create your models here.
 class Formation(models.Model):
     """
@@ -10,7 +12,7 @@ class Formation(models.Model):
     titre_formation = models.CharField(max_length=200)
     slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')
     img_formation = models.ImageField(upload_to='formations_img/')
-    content_formation = models.TextField()
+    content_formation = HTMLField('content_formation')
     editeur = models.CharField(max_length=200)
     created = models.DateTimeField(auto_now_add=False)
 
