@@ -30,9 +30,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
-        <script src="https://use.fontawesome.com/28a6e24bf2.js"></script>
-    
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://use.fontawesome.com/28a6e24bf2.js"></script>
+
+
+    <!-- <script src="https://cdn.tiny.cloud/1/9uefa29mghxxv68ohq2qhnr7wz86r3mxche6tiotda03zpj0/tinymce/5/tinymce.min.js"
+        referrerpolicy="origin">
+    </script> -->
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
     {% block style %} {% endblock style %}
     {% block carousel %} {% endblock carousel %}
         
@@ -74,6 +80,19 @@
     <!-- JS here -->
     
     {% block js %}{% endblock js %}
+
+    
+
+    <!-- <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'a11ychecker advcode casechange formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
+            toolbar: 'a11ycheck addcomment showcomments casechange checklist code formatpainter pageembed permanentpen table',
+            toolbar_mode: 'floating',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+        });
+    </script> -->
         
  
     <script src="{% static 'js/vendor/modernizr-3.5.0.min.js' %}"></script>

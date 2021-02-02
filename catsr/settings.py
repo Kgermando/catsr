@@ -172,6 +172,9 @@ USE_TZ = True
 #     'statusbar': True,
 # }
 
+TINYMCE_JS_URL = 'https://cdn.tiny.cloud/1/9uefa29mghxxv68ohq2qhnr7wz86r3mxche6tiotda03zpj0/tinymce/4/tinymce.min.js'
+TINYMCE_COMPRESSOR = False
+
 # Messages
 from django.contrib.messages import constants as messages
 

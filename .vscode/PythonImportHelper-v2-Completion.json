@@ -1616,6 +1616,24 @@
         "documentation": {}
     },
     {
+        "label": "TINYMCE_JS_URL",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "TINYMCE_JS_URL = 'https://cdn.tiny.cloud/1/9uefa29mghxxv68ohq2qhnr7wz86r3mxche6tiotda03zpj0/tinymce/4/tinymce.min.js'\nTINYMCE_COMPRESSOR = False\n# Messages\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.ERROR: 'danger'\n}\n# Config/settings.py\nDEFAULT_FROM_EMAIL = 'contact@catsr.org'\nEMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TINYMCE_COMPRESSOR",
+        "kind": 5,
+        "importPath": "catsr.settings",
+        "description": "catsr.settings",
+        "peekOfCode": "TINYMCE_COMPRESSOR = False\n# Messages\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.ERROR: 'danger'\n}\n# Config/settings.py\nDEFAULT_FROM_EMAIL = 'contact@catsr.org'\nEMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# Static files (CSS, JavaScript, Images)",
+        "detail": "catsr.settings",
+        "documentation": {}
+    },
+    {
         "label": "MESSAGE_TAGS",
         "kind": 5,
         "importPath": "catsr.settings",
