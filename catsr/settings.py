@@ -204,7 +204,7 @@ if DEBUG == True:
 else:
     AWS_ACCESS_KEY_ID = 'IBKD3NNQFIG4DCLPXNM6'
     AWS_SECRET_ACCESS_KEY = 'vU0b9MGooFq3mBSv8JNgCuQhsgeNijrEp5OIUV8o874'
-    AWS_STORAGE_BUCKET_NAME = 'catsr-space'
+    AWS_STORAGE_BUCKET_NAME = 'catsr-static'
     AWS_S3_ENDPOINT_URL = 'https://nyc3.digitaloceanspaces.com'
     AWS_S3_OBJECT_PARAMETERS = {
         'CacheControl': 'max-age=86400',
