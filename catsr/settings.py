@@ -204,7 +204,7 @@ if DEBUG == True:
 else:
     AWS_ACCESS_KEY_ID = 'IBKD3NNQFIG4DCLPXNM6'
     AWS_SECRET_ACCESS_KEY = 'vU0b9MGooFq3mBSv8JNgCuQhsgeNijrEp5OIUV8o874'
-    AWS_STORAGE_BUCKET_NAME = 'catsr-static'
+    AWS_STORAGE_BUCKET_NAME = 'catsr-static-api-2'
     AWS_S3_ENDPOINT_URL = 'https://nyc3.digitaloceanspaces.com'
     AWS_S3_OBJECT_PARAMETERS = {
         'CacheControl': 'max-age=86400',
@@ -217,3 +217,5 @@ else:
     STATIC_URL = 'https://%s/%s/' % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
     STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
     DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+# d7e8fc0c96a4d67fd1e82a5347d17fa5e99eea2d695003d2be14af680bc12089
