@@ -1,8 +1,8 @@
 ### HOST ###
 catsr-2
 
-Admin: catsr 
-Mdp: @catsr1234
+Admin: admin 
+Mdp: @catsr2021
 
 ### USER & PASSWORD ###
 user: root 
