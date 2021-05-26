@@ -112,6 +112,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -160,6 +176,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -185,6 +217,22 @@
     },
     {
         "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -1373,6 +1421,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "bulletins.migrations.0008_bulletin_nombre_vues",
+        "description": "bulletins.migrations.0008_bulletin_nombre_vues",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('bulletins', '0007_auto_20210202_0715'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='bulletin',\n            name='nombre_vues',\n            field=models.IntegerField(default=0, verbose_name='Nombre des vues'),\n        ),",
+        "detail": "bulletins.migrations.0008_bulletin_nombre_vues",
+        "documentation": {}
+    },
+    {
         "label": "BulletinAdmin",
         "kind": 6,
         "importPath": "bulletins.admin",
@@ -1458,7 +1515,7 @@
         "kind": 2,
         "importPath": "bulletins.views",
         "description": "bulletins.views",
-        "peekOfCode": "def bulletin_detail(request, slug):\n    \"\"\"\n    docstring\n    \"\"\"\n    bulletin = get_object_or_404(Bulletin, slug=slug)\n    bulletin_list = Bulletin.objects.all().order_by('-created')[:5]\n    context = {\n        'bulletin': bulletin,\n        'bulletin_list': bulletin_list\n    }",
+        "peekOfCode": "def bulletin_detail(request, slug):\n    \"\"\"\n    docstring\n    \"\"\"\n    bulletin = get_object_or_404(Bulletin, slug=slug)\n    bulletin_list = Bulletin.objects.all().order_by('-created')[:5]\n    bulletin.nombre_vues = bulletin.nombre_vues+1\n    bulletin.save()\n    context = {\n        'bulletin': bulletin,",
         "detail": "bulletins.views",
         "documentation": {}
     },
@@ -1575,7 +1632,7 @@
         "kind": 5,
         "importPath": "catsr.settings",
         "description": "catsr.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'Africa/Kinshasa'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#tiny mce config\n# TINYMCE_DEFAULT_CONFIG = {\n#     'height': 360,\n#     'width': 1120,\n#     'cleanup_on_startup': True,",
+        "peekOfCode": "LANGUAGE_CODE = 'fr-fr'\nTIME_ZONE = 'Africa/Kinshasa'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#tiny mce config\n# TINYMCE_DEFAULT_CONFIG = {\n#     'height': 360,\n#     'width': 1120,\n#     'cleanup_on_startup': True,",
         "detail": "catsr.settings",
         "documentation": {}
     },
@@ -1823,11 +1880,20 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "evenement.migrations.0004_evenenement_nombre_vues",
+        "description": "evenement.migrations.0004_evenenement_nombre_vues",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('evenement', '0003_auto_20210202_0743'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='evenenement',\n            name='nombre_vues',\n            field=models.IntegerField(default=0, verbose_name='Nombre des vues'),\n        ),",
+        "detail": "evenement.migrations.0004_evenenement_nombre_vues",
+        "documentation": {}
+    },
+    {
         "label": "EvenementAdmin",
         "kind": 6,
         "importPath": "evenement.admin",
         "description": "evenement.admin",
-        "peekOfCode": "class EvenementAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_evenement',\n        'created'\n    )\n    list_filter = (\n        'titre_evenement',\n        'created'\n    )\n    search_fields = ['titre_evenement', 'created',]",
+        "peekOfCode": "class EvenementAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_evenement',\n        'created',\n    )\n    list_filter = (\n        'titre_evenement',\n        'created',\n    )\n    readonly_fields = (",
         "detail": "evenement.admin",
         "documentation": {}
     },
@@ -1845,7 +1911,7 @@
         "kind": 6,
         "importPath": "evenement.models",
         "description": "evenement.models",
-        "peekOfCode": "class Evenenement(models.Model):\n    titre_evenement = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    img_evenement = models.ImageField(upload_to='event_img/')\n    content_evenement = HTMLField('content_evenement')\n    editeur = models.CharField(max_length=200)\n    created = models.DateTimeField(auto_now_add=False)\n    def get_absolute_url(self):\n        from django.urls import reverse\n        return reverse('event:event_detail_id', args=[str(self.id)])",
+        "peekOfCode": "class Evenenement(models.Model):\n    titre_evenement = models.CharField(max_length=300)\n    slug = models.SlugField(blank=True, unique=True, help_text='Laissez ce champ vide')\n    img_evenement = models.ImageField(upload_to='event_img/')\n    content_evenement = HTMLField('content_evenement')\n    editeur = models.CharField(max_length=200)\n    created = models.DateTimeField(auto_now_add=False)\n    nombre_vues = models.IntegerField(default=0, verbose_name=\"Nombre des vues\")\n    def get_absolute_url(self):\n        from django.urls import reverse",
         "detail": "evenement.models",
         "documentation": {}
     },
@@ -1890,7 +1956,7 @@
         "kind": 2,
         "importPath": "evenement.views",
         "description": "evenement.views",
-        "peekOfCode": "def event_detail(request, slug):\n    \"\"\"\n    docstring\n    \"\"\"\n    event = get_object_or_404(Evenenement, slug=slug)\n    event_list = Evenenement.objects.all().order_by('-created')[:5]\n    context = {\n        'event': event,\n        'event_list': event_list\n    }",
+        "peekOfCode": "def event_detail(request, slug):\n    \"\"\"\n    docstring\n    \"\"\"\n    event = get_object_or_404(Evenenement, slug=slug)\n    event_list = Evenenement.objects.all().order_by('-created')[:5]\n    event.nombre_vues = event.nombre_vues+1\n    event.save()\n    context = {\n        'event': event,",
         "detail": "evenement.views",
         "documentation": {}
     },
@@ -1913,11 +1979,20 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "formations.migrations.0003_formation_nombre_vues",
+        "description": "formations.migrations.0003_formation_nombre_vues",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('formations', '0002_auto_20210202_0743'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='formation',\n            name='nombre_vues',\n            field=models.IntegerField(default=0, verbose_name='Nombre des vues'),\n        ),",
+        "detail": "formations.migrations.0003_formation_nombre_vues",
+        "documentation": {}
+    },
+    {
         "label": "FormationAdmin",
         "kind": 6,
         "importPath": "formations.admin",
         "description": "formations.admin",
-        "peekOfCode": "class FormationAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_formation',\n        'slug',\n        'created'\n    )\n    list_filter = (\n        'titre_formation',\n        'created'\n    )",
+        "peekOfCode": "class FormationAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_formation',\n        'slug',\n        'nombre_vues',\n        'created',\n    )\n    list_filter = (\n        'titre_formation',\n        'created',",
         "detail": "formations.admin",
         "documentation": {}
     },
@@ -1926,7 +2001,7 @@
         "kind": 5,
         "importPath": "formations.admin",
         "description": "formations.admin",
-        "peekOfCode": "admin.site.site_header = 'CATSR ADMIN'\nadmin.site.site_title = \"Interface d'administration de l'Accueil\"\nfrom formations.models import Formation\n# Register your models here.\nclass FormationAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_formation',\n        'slug',\n        'created'\n    )",
+        "peekOfCode": "admin.site.site_header = 'CATSR ADMIN'\nadmin.site.site_title = \"Interface d'administration de l'Accueil\"\nfrom formations.models import Formation\n# Register your models here.\nclass FormationAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_formation',\n        'slug',\n        'nombre_vues',\n        'created',",
         "detail": "formations.admin",
         "documentation": {}
     },
@@ -1935,7 +2010,7 @@
         "kind": 5,
         "importPath": "formations.admin",
         "description": "formations.admin",
-        "peekOfCode": "admin.site.site_title = \"Interface d'administration de l'Accueil\"\nfrom formations.models import Formation\n# Register your models here.\nclass FormationAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_formation',\n        'slug',\n        'created'\n    )\n    list_filter = (",
+        "peekOfCode": "admin.site.site_title = \"Interface d'administration de l'Accueil\"\nfrom formations.models import Formation\n# Register your models here.\nclass FormationAdmin(admin.ModelAdmin):\n    list_display = (\n        'titre_formation',\n        'slug',\n        'nombre_vues',\n        'created',\n    )",
         "detail": "formations.admin",
         "documentation": {}
     },
@@ -1998,7 +2073,7 @@
         "kind": 2,
         "importPath": "formations.views",
         "description": "formations.views",
-        "peekOfCode": "def formations_detail(request, slug):\n    \"\"\"\n    docstring\n    \"\"\"\n    formation = get_object_or_404(Formation, slug=slug)\n    formation_list = Formation.objects.all().order_by('-created')[:5]\n    context = {\n        'formation': formation,\n        'formation_list': formation_list\n    }",
+        "peekOfCode": "def formations_detail(request, slug):\n    \"\"\"\n    docstring\n    \"\"\"\n    formation = get_object_or_404(Formation, slug=slug)\n    formation_list = Formation.objects.all().order_by('-created')[:5]\n    formation.nombre_vues = formation.nombre_vues+1\n    formation.save()\n    context = {\n        'formation': formation,",
         "detail": "formations.views",
         "documentation": {}
     },

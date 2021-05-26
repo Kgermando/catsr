@@ -29,6 +29,8 @@ def formations_detail(request, slug):
     """
     formation = get_object_or_404(Formation, slug=slug)
     formation_list = Formation.objects.all().order_by('-created')[:5]
+    formation.nombre_vues = formation.nombre_vues+1
+    formation.save()
     context = {
         'formation': formation,
         'formation_list': formation_list

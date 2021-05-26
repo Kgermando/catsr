@@ -10,12 +10,17 @@ class FormationAdmin(admin.ModelAdmin):
     list_display = (
         'titre_formation',
         'slug',
-        'created'
+        'nombre_vues',
+        'created',
     )
 
     list_filter = (
         'titre_formation',
-        'created'
+        'created',
+    )
+
+    readonly_fields = (
+        'nombre_vues',
     )
 
     search_fields = ['titre_formation',  'created',]

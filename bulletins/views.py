@@ -28,6 +28,8 @@ def bulletin_detail(request, slug):
     """
     bulletin = get_object_or_404(Bulletin, slug=slug)
     bulletin_list = Bulletin.objects.all().order_by('-created')[:5]
+    bulletin.nombre_vues = bulletin.nombre_vues+1
+    bulletin.save()
     context = {
         'bulletin': bulletin,
         'bulletin_list': bulletin_list

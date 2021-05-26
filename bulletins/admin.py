@@ -22,13 +22,15 @@ class BulletinAdmin(admin.ModelAdmin):
         'titre_bulletin',
         'slug',
         # 'numero_bulletin',
-        'created'
+        'created',
     )
 
     list_filter = (
         'titre_bulletin',
-        'created'
+        'created',
     )
+
+    readonly_fields = ('nombre_vues',)
 
     search_fields = ['titre_bulletin', 'created',]
 

@@ -15,6 +15,7 @@ class Formation(models.Model):
     content_formation = HTMLField('content_formation')
     editeur = models.CharField(max_length=200)
     created = models.DateTimeField(auto_now_add=False)
+    nombre_vues = models.IntegerField(default=0, verbose_name="Nombre des vues")
 
     def get_absolute_url(self):
         from django.urls import reverse

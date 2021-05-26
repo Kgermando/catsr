@@ -12,6 +12,7 @@ class Evenenement(models.Model):
     content_evenement = HTMLField('content_evenement')
     editeur = models.CharField(max_length=200)
     created = models.DateTimeField(auto_now_add=False)
+    nombre_vues = models.IntegerField(default=0, verbose_name="Nombre des vues")
 
     def get_absolute_url(self):
         from django.urls import reverse

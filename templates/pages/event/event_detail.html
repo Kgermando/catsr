@@ -13,9 +13,10 @@
                 <div class="single-post">
                     <div class="blog_details">
                         <h2 style="color: #2d2d2d;">
-                            {{ event.titre_evenement }}
+                            {{ event.titre_evenement|upper }}
                         </h2>
                         <ul class="blog-info-link mt-3 mb-4">
+                            <li><a href="#"><i class="fa fa-eye"></i>{{ event.nombre_vues }}</a></li>
                             <li><a href="#"><i class="fa fa-clock"></i>: {{ event.created|timesince }}</a></li>
                         </ul>
                     </div>

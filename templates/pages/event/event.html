@@ -8,20 +8,21 @@
     {% endblock style %}
 
 {% block content %}
-
 <div class="slider-area2">
-    <div class="slider-height2 d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="hero-cap hero-cap2 pt-20 text-center">
-                        <h2>Evenements sociaux</h2>
+    <!-- <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+    <div class="hero-cap hero-cap2 pt-20 text-center">
+        <h2>Evenements sociaux</h2>
     </div>
 </div>
+
 <!-- Hero End -->
   <!-- Our Cases Start -->
     <div class="our-cases-area section-padding30">
@@ -34,10 +35,11 @@
                                 <img src="{{event.img_evenement.url}}" width="300" height="200" alt="{{ event.titre_evenement }}">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{% url 'event:event_detail' event.slug %}">{{ event.titre_evenement|truncatewords:10 }}</a></h3>
+                                <h3><a href="{% url 'event:event_detail' event.slug %}">{{ event.titre_evenement| capfirst|truncatewords:10 }}</a></h3>
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
-                                    <p><i class="far fa-clock"></i>:<span> {{ event.created|timesince }}</span></p>
+                                    <p><i class="fa fa-eye" aria-hidden="true"></i><span> {{ event.nombre_vues }}</span></p>
+                                    <p><i class="far fa-clock"></i><span> {{ event.created|timesince }}</span></p>
                                 </div>
                             </div>
                         </div>

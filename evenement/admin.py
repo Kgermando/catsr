@@ -5,12 +5,16 @@ from evenement.models import Evenenement
 class EvenementAdmin(admin.ModelAdmin):
     list_display = (
         'titre_evenement',
-        'created'
+        'created',
     )
 
     list_filter = (
         'titre_evenement',
-        'created'
+        'created',
+    )
+
+    readonly_fields = (
+        'nombre_vues',
     )
 
     search_fields = ['titre_evenement', 'created',]

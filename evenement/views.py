@@ -29,6 +29,8 @@ def event_detail(request, slug):
     """
     event = get_object_or_404(Evenenement, slug=slug)
     event_list = Evenenement.objects.all().order_by('-created')[:5]
+    event.nombre_vues = event.nombre_vues+1
+    event.save()
     context = {
         'event': event,
         'event_list': event_list

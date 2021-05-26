@@ -16,9 +16,10 @@
                     <div class="single-post">
                         <div class="blog_details">
                             <h2 style="color: #2d2d2d;">
-                                {{ formation.titre_formation }}
+                                {{ formation.titre_formation|upper }}
                             </h2>
                             <ul class="blog-info-link mt-3 mb-4">
+                                <li><a href="#"><i class="fa fa-eye"></i>{{ formation.nombre_vues }}</a></li>
                                 <li><a href="#"><i class="fa fa-clock"></i>: {{ formation.created|timesince }}</a></li>
                             </ul>
                         </div>

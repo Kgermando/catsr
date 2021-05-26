@@ -9,20 +9,22 @@
 
 {% block content %}
 
+
     <!--? Hero Start -->
-    <div class="slider-area2">
-        <div class="slider-height2 d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="hero-cap hero-cap2 pt-20 text-center">
-                            <h2>Nos Formations</h2>
+        <div class="slider-area2">
+            <!-- <div class="slider-height2 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                
+                            </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+            <div class="hero-cap hero-cap2 pt-20 text-center">
+                <h2>Nos Formations</h2>
             </div>
         </div>
-    </div>
     <!-- Hero End -->
     <!-- Our Cases Start -->
     <div class="our-cases-area section-padding30">
@@ -35,9 +37,10 @@
                                 <img src="{{formation.img_formation.url}}" width="300" height="200" alt="{{ formation.titre_formation }}">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation|truncatewords:10 }}</a></h3>
+                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation| capfirst|truncatewords:10 }}</a></h3>
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
+                                    <p><i class="fa fa-eye" aria-hidden="true"></i><span> {{ formation.nombre_vues }}</span></p>
                                     <p><i class="far fa-clock"></i>:<span> {{ formation.created|timesince }}</span></p>
                                 </div>
                             </div>
