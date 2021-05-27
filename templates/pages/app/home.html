@@ -207,7 +207,7 @@
                                 <img src="{{bulletin.img_bulletin.url}}" width="300" height="200" alt="{{ bulletin.titre_bulletin }}">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{% url 'bulletin:bulletin_detail' bulletin.slug %}">{{ bulletin.titre_bulletin|truncatewords:10 }}</a></h3>
+                                <h3><a href="{% url 'bulletin:bulletin_detail' bulletin.slug %}">{{ bulletin.titre_bulletin|capfirst|truncatewords:10 }}</a></h3>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                 
@@ -215,7 +215,8 @@
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
                                     <p>N°:<span> {{ bulletin.id }}</span></p>
-                                    <p><i class="far fa-clock"></i>:<span> {{ bulletin.created|timesince }}</span></p>
+                                    <p><i class="fa fa-eye" aria-hidden="true"></i><span> {{ bulletin.nombre_vues }}</span></p>
+                                    <p><i class="fa fa-clock-o"></i>:<span> {{ bulletin.created|timesince }}</span></p>
                                 </div>
                             </div>
                         </div>
@@ -245,10 +246,11 @@
                                 <img src="{{event.img_evenement.url}}" width="300" height="200" alt="{{ event.titre_evenement }}">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{% url 'event:event_detail' event.slug %}">{{ event.titre_evenement|truncatewords:10 }}</a></h3>
+                                <h3><a href="{% url 'event:event_detail' event.slug %}">{{ event.titre_evenement|capfirst|truncatewords:10 }}</a></h3>
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
-                                    <p><i class="far fa-clock"></i>:<span> {{ event.created|timesince }}</span></p>
+                                    <p><i class="fa fa-eye" aria-hidden="true"></i><span> {{ event.nombre_vues }}</span></p>
+                                    <p><i class="fa fa-clock-o"></i>:<span> {{ event.created|timesince }}</span></p>
                                 </div>
                             </div>
                         </div>
@@ -278,10 +280,11 @@
                                 <img src="{{formation.img_formation.url}}" width="300" height="200" alt="{{ formation.titre_formation }}">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation|truncatewords:10 }}</a></h3>
+                                <h3><a href="{% url 'formations:formations_detail' formation.slug %}">{{ formation.titre_formation|capfirst |truncatewords:10 }}</a></h3>
                                 <!-- / progress -->
                                 <div class="prices d-flex justify-content-between">
-                                    <p><i class="far fa-clock"></i>:<span> {{ formation.created|timesince }}</span></p>
+                                    <p><i class="fa fa-eye" aria-hidden="true"></i><span> {{ formation.nombre_vues }}</span></p>
+                                    <p><i class="fa fa-clock-o"></i>:<span> {{ formation.created|timesince }}</span></p>
                                 </div>
                             </div>
                         </div>
