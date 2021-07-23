@@ -6,7 +6,7 @@ Mdp: @catsr2021
 
 ### USER & PASSWORD ###
 user: root 
-password console: gk0813530838
+password console: 0813530838Gk
 
 myprojectuser:  catsr
 
